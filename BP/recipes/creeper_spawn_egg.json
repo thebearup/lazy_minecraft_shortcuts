@@ -1,0 +1,27 @@
+{
+    "format_version": 1.12,
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "lazy:creeper_spawn_egg"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " Y",
+            "YXY",
+            " Y"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:egg"
+            },
+            "Y": {
+                "item": "minecraft:gunpowder"
+            }
+        },
+        "result": {
+            "item": "minecraft:creeper_spawn_egg"
+        }
+    }
+}

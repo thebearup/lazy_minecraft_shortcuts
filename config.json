@@ -1,0 +1,12 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Lazy Shortcuts",
+	"namespace": "lazy",
+	"author": "Matt B",
+	"targetVersion": "1.16.100",
+	"description": "This enables some functions and recipes that make my routine tasks easier :)",
+	"capabilities": [],
+	"packs": {
+		"behaviorPack": "./BP"
+	}
+}

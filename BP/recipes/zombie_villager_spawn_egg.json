@@ -1,0 +1,27 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "lazy:zombie_villager_spawn_egg"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" Y",
+			"YXY",
+			" Y"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:egg"
+			},
+			"Y": {
+				"item": "minecraft:rotten_flesh"
+			}
+		},
+		"result": {
+			"item": "minecraft:zombie_villager_spawn_egg"
+		}
+	}
+}
