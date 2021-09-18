@@ -1,0 +1,14 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "minecraft:furnace_leather_leggings"
+      },
+  
+      
+      "tags": ["furnace"],
+      "input": "minecraft:leather_leggings",
+      "output": "minecraft:rabbit_hide"
+    }
+    
+  }

@@ -1,0 +1,14 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "minecraft:furnace_saddle"
+      },
+  
+      
+      "tags": ["furnace"],
+      "input": "minecraft:saddle",
+      "output": "minecraft:rabbit_hide"
+    }
+    
+  }
