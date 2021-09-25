@@ -19,6 +19,14 @@
             "minecraft:block_light_emission": 0.250,
             "minecraft:on_interact": {
                 "event": "greater_enchant"
+            },
+            "minecraft:on_placed": {
+                "event": "block_placed",
+                "target": "self"
+            },
+            "minecraft:on_player_destroyed":{
+                "event" : "block_destroyed",
+                "target": "self"
             }
         },
         "events": {
@@ -26,8 +34,21 @@
               "run_command": {
                   "command": [ 
                       "playsound random.click @p",
-                      "summon npc Enchanter ~ ~1 ~",
                       "dialogue open @e[type=npc,c=1] @p greater_enchant_dialog"
+                  ]
+              }
+          },
+          "block_placed": {
+              "run_command": {
+                  "command": [
+                      "summon npc Enchanter ~ ~1 ~"
+                  ]
+              }
+          },
+          "block_destroyed": {
+              "run_command": {
+                  "command": [
+                      "kill @e[family=npc,c=1,r=1]"
                   ]
               }
           }

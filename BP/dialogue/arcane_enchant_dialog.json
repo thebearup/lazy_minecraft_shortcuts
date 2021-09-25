@@ -7,14 +7,11 @@
                 "npc_name": "Arcane Enchanter",
                 "text": "I can apply arcane enchantments (aqua affinity 1/respiration 2/feather falling 3/depth strider 2/thorns 2/mending 1) to your in-hand equipment in exchange for 16 EXP levels.",
                 "on_open_commands": [],
-                "on_close_commands": [
-                    "/kill @e[family=npc]"
-                ],
+                "on_close_commands": [],
                 "buttons": [
                     {
                         "name": "Enchant?",
                         "commands": [
-                            "/say TEST1",
                             "/execute @initiator ~ ~ ~ function arcaneenchant"
                         ]
                     }
