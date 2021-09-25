@@ -2,7 +2,7 @@
     "format_version": "1.16.0",
     "minecraft:block": {
         "description": {
-            "identifier": "lazy:canvasblock",
+            "identifier": "lazy:lesser_enchanting_table",
             "is_experimental": false,
             "register_to_creative_menu": true
         },
@@ -18,14 +18,18 @@
             "minecraft:block_light_absorption": 0,
             "minecraft:block_light_emission": 0.250,
             "minecraft:on_interact": {
-                "event": "test_event"
+                "event": "lesser_enchant"
             }
         },
         "events": {
-            "test_event": {
+            "lesser_enchant": {
               "run_command": {
-                  "command": "execute @a ~ ~ ~ function lesserenchant"
-            }
+                  "command": [ 
+                      "playsound random.click @p",
+                      "summon npc Enchanter ~ ~1 ~",
+                      "dialogue open @e[type=npc,c=1] @p lesser_enchant_dialog"
+                  ]
+              }
           }
         }
     }

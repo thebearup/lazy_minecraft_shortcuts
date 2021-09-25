@@ -1,11 +1,27 @@
 {
     "format_version": "1.16.0",
-      "lazy:canvasblock": {
+      "lazy:lesser_enchanting_table": {
         "textures": {
-            "up": "log_oak_top",
-            "down": "log_oak_top",
-            "side": "canvasblock"
+            "up": "lesser_enchanting_table_top",
+            "down": "lesser_enchanting_table_bottom",
+            "side": "lesser_enchanting_table_side"
             },
-        "sound":"dirt"
+          "sound": "stone"
+        },
+        "lazy:greater_enchanting_table": {
+          "textures": {
+              "up": "greater_enchanting_table_top",
+              "down": "greater_enchanting_table_bottom",
+              "side": "greater_enchanting_table_side"
+              },
+            "sound": "stone"
+        },
+        "lazy:arcane_enchanting_table": {
+          "textures": {
+              "up": "arcane_enchanting_table_top",
+              "down": "arcane_enchanting_table_bottom",
+              "side": "arcane_enchanting_table_side"
+              },
+            "sound": "stone"
         }
     }

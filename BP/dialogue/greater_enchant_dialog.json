@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "greater_enchant_dialog",
+                "npc_name": "Greater Enchanter",
+                "text": "I can apply high-level enchantments (protection 3/sharpness 3/looting 2/unbreaking 2/efficiency 3) to your in-hand equipment in exchange for 8 EXP levels.",
+                "on_open_commands": [],
+                "on_close_commands": [
+                    "/kill @e[family=npc]"
+                ],
+                "buttons": [
+                    {
+                        "name": "Enchant?",
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function greaterenchant"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

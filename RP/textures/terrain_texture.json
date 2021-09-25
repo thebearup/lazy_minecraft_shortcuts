@@ -4,11 +4,32 @@
     "padding": 8,
     "num_mip_levels": 4,
     "texture_data": {
-      "canvasblock": {
-        "textures": "textures/blocks/canvasblock"
+      "lesser_enchanting_table_top": {
+        "textures": "textures/blocks/lesser_enchanting_table_top"
       },
-      "log_oak_top":{
-        "textures": "textures/blocks/log_oak_top"
+      "lesser_enchanting_table_bottom":{
+        "textures": "textures/blocks/lesser_enchanting_table_bottom"
+      },
+      "lesser_enchanting_table_side":{
+        "textures": "textures/blocks/lesser_enchanting_table_side"
+      },
+      "greater_enchanting_table_top": {
+        "textures": "textures/blocks/greater_enchanting_table_top"
+      },
+      "greater_enchanting_table_bottom":{
+        "textures": "textures/blocks/greater_enchanting_table_bottom"
+      },
+      "greater_enchanting_table_side":{
+        "textures": "textures/blocks/greater_enchanting_table_side"
+      },
+      "arcane_enchanting_table_top": {
+        "textures": "textures/blocks/arcane_enchanting_table_top"
+      },
+      "arcane_enchanting_table_bottom":{
+        "textures": "textures/blocks/arcane_enchanting_table_bottom"
+      },
+      "arcane_enchanting_table_side":{
+        "textures": "textures/blocks/arcane_enchanting_table_side"
       }
     }
   }

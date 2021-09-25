@@ -1,3 +1,8 @@
 pack.name=Lazy Shortcuts RP
 pack.description=This enables some functions and recipes that make my routine tasks easier :)
-tile.lazy:canvasblock.name=Canvas Block
+tile.lazy:lesser_enchanting_table.name=Lesser Enchanting Table
+tile.lazy:greater_enchanting_table.name=Greater Enchanting Table
+tile.lazy:arcane_enchanting_table.name=Arcane Enchanting Table
+
+
+
