@@ -5,7 +5,7 @@
             {
                 "scene_tag": "lesser_enchant_dialog",
                 "npc_name": "Lesser Enchanter",
-                "text": "I can apply low-level enchantments (protection 1/sharpness 1/looting 1/unbreaking 1/efficiency 1) to your in-hand equipment in exchange for 4 EXP levels.",
+                "text": "I can apply low-level enchantments to your in-hand equipment in exchange for 4 EXP levels.\nProtection 1\nSharpness 1\nLooting 1\nUnbreaking 1\nEfficiency 1\nAdditional options:\nSilk Touch (2 levels)\nFortune1 (2 levels)",
                 "on_open_commands": [],
                 "on_close_commands": [],
                 "buttons": [
@@ -13,6 +13,18 @@
                         "name": "Enchant?",
                         "commands": [
                             "/execute @initiator ~ ~ ~ function lesserenchant"
+                        ]
+                    },
+                    {
+                        "name": "Silk Touch?",
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function silktouchenchant"
+                        ]
+                    },
+                    {
+                        "name": "Fortune 1?",
+                        "commands": [
+                            "/execute @initiator ~ ~ ~ function fortune1enchant"
                         ]
                     }
                 ]

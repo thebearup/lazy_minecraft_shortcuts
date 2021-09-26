@@ -23,5 +23,13 @@
               "side": "arcane_enchanting_table_side"
               },
             "sound": "stone"
+        },
+        "lazy:kelp_generator": {
+          "textures": {
+              "up": "kelp_generator_top",
+              "down": "kelp_generator_bottom",
+              "side": "kelp_generator_side"
+              },
+            "sound": "stone"
         }
     }

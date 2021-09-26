@@ -30,6 +30,15 @@
       },
       "arcane_enchanting_table_side":{
         "textures": "textures/blocks/arcane_enchanting_table_side"
+      },
+      "kelp_generator_top": {
+        "textures": "textures/blocks/kelp_generator"
+      },
+      "kelp_generator_bottom":{
+        "textures": "textures/blocks/kelp_generator"
+      },
+      "kelp_generator_side":{
+        "textures": "textures/blocks/kelp_generator"
       }
     }
   }
