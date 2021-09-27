@@ -4,7 +4,7 @@
 This is an addon that simplifies some things I commonly do in Minecraft.
 It's not really meant to change the game so much as simplify the more grindy elements of the game.
 ## Implemented
-- **Clear Function** Run `/function clear` to remove all non-ore block in a 40x10x40 box around you.
+- **Clear Function**: Run `/function clear` to remove all non-ore block in a 40x10x40 box around you.
 - **Lesser Enchanting Table**: Grants low-level enchantments for 4XP levels.
 - **Greater Enchanting Table**: Grants high-level enchantments for 8XP levels.
 - **Arcane Enchanting Table**: Grants additional enchantments for 16XP levels.
@@ -30,7 +30,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
       - Fairly convoluted - can use the PS4 method instead.
 3. Enable `Holiday Creator Features` in world settings.
 
-# New Equipment
+# New Recipes/Features
 |   |   |
 |---|---|
 |![Alt text](media/lesser_enchanting_recipe.png "Lesser Enchanting Table")|![Alt text](media/lesser_enchanting_dialog.png "Lesser Enchanting Table")|
