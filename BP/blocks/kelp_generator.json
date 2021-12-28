@@ -20,8 +20,13 @@
             "minecraft:on_interact": {
                 "event": "generate_kelp"
             },
-            "minecraft:on_fall_on": {
-                "event": "generate_kelp"
+            "minecraft:ticking": {
+                "looping": true,
+                "range": [0, 10],
+                "on_tick": {
+                    "event": "generate_kelp",
+                    "target": "self"
+                }
             }
         },
         "events": {
