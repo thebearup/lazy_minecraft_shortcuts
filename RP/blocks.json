@@ -24,6 +24,14 @@
               },
             "sound": "stone"
         },
+        "lazy:copper_terminus": {
+          "textures": {
+            "up": "lesser_enchanting_table_top",
+            "down": "lesser_enchanting_table_bottom",
+            "side": "lesser_enchanting_table_side"
+            },
+            "sound": "stone"
+        },
         "lazy:kelp_generator": {
           "textures": {
               "up": "kelp_generator_top",

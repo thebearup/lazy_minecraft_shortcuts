@@ -4,6 +4,9 @@
   "texture_data": {
     "boring_wand": {
       "textures": "textures/items/boring_wand"
+    },
+    "copper_totem": {
+      "textures": "textures/items/copper_totem"
     }
   }
 }

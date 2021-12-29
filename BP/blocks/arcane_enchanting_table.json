@@ -41,7 +41,8 @@
             "block_placed": {
                 "run_command": {
                     "command": [
-                        "summon npc Enchanter ~ ~1 ~"
+                        "summon npc Enchanter ~ ~1 ~",
+                        "dialogue change @e[type=npc,c=1,r=1] arcane_enchant_dialog"
                     ]
                 }
             },

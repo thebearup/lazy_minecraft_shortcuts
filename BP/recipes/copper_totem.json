@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "lazy:copper_totem"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "XYX",
+        " X",
+        " X"
+      ],
+      "key": {
+        "X": {
+          "item": "minecraft:copper_ingot"
+        },
+        "Y":{
+          "item": "minecraft:lapis_lazuli"
+        }
+      },
+      "result": {
+        "item": "lazy:copper_totem"
+      }
+    }
+  }
