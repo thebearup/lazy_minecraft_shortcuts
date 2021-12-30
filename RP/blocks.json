@@ -25,7 +25,19 @@
             "sound": "stone"
         },
         "lazy:copper_terminus": {
-            "sound": "stone"
+            "sound": "metal"
+        },
+        "lazy:iron_terminus": {
+          "sound": "metal"
+        },
+        "lazy:gold_terminus": {
+          "sound": "metal"
+        },
+        "lazy:emerald_terminus": {
+          "sound": "metal"
+        },
+        "lazy:diamond_terminus": {
+          "sound": "metal"
         },
         "lazy:kelp_generator": {
           "textures": {

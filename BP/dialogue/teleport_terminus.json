@@ -10,19 +10,19 @@
                 "on_close_commands": [],
                 "buttons": [
                     {
-                        "name": "Copper?",
+                        "name": "Copper",
                         "commands": [
                             "execute @initiator ~ ~ ~ function teleport_copper"
                         ]
                     },
                     {
-                        "name": "Iron?",
+                        "name": "Iron",
                         "commands": [
                             "execute @initiator ~ ~ ~ function teleport_iron"
                         ]
                     },
                     {
-                        "name": "More?",
+                        "name": "More...",
                         "commands": [
                             "dialogue open @e[type=npc,c=1] @initiator teleport_terminus_more"
                         ]
@@ -37,21 +37,21 @@
                 "on_close_commands": [],
                 "buttons": [
                     {
-                        "name": "Gold?",
+                        "name": "Gold",
                         "commands": [
                             "execute @initiator ~ ~ ~ function teleport_gold"
                         ]
                     },
                     {
-                        "name": "Emerald?",
+                        "name": "Emerald",
                         "commands": [
                             "execute @initiator ~ ~ ~ function teleport_emerald"
                         ]
                     },
                     {
-                        "name": "Diamond?",
+                        "name": "Diamond",
                         "commands": [
-                            "execute @initiator ~ ~ ~ function teleport_emerald"
+                            "execute @initiator ~ ~ ~ function teleport_diamond"
                         ]
                     }
                 ]

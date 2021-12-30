@@ -5,6 +5,10 @@ tile.lazy:greater_enchanting_table.name=Greater Enchanting Table
 tile.lazy:arcane_enchanting_table.name=Arcane Enchanting Table
 tile.lazy:kelp_generator.name=Kelp Generator
 tile.lazy:copper_terminus.name=Copper Terminus
+tile.lazy:iron_terminus.name=Iron Terminus
+tile.lazy:gold_terminus.name=Gold Terminus
+tile.lazy:emerald_terminus.name=Emerald Terminus
+tile.lazy:diamond_terminus.name=Diamond Terminus
 
 item.lazy:boring_wand.name=Boring Wand
 item.lazy:kelp_generator_spawner.name=Kelp Generator
@@ -13,5 +17,9 @@ item.lazy:greater_enchanting_spawner.name=Greater Enchanting Table
 item.lazy:arcane_enchanting_spawner.name=Arcane Enchanting Table
 item.lazy:copper_totem.name=Copper Totem
 item.lazy:copper_terminus_spawner.name=Copper Terminus
+item.lazy:iron_terminus_spawner.name=Iron Terminus
+item.lazy:gold_terminus_spawner.name=Gold Terminus
+item.lazy:emerald_terminus_spawner.name=Emerald Terminus
+item.lazy:diamond_terminus_spawner.name=Diamond Terminus
 
 

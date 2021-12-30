@@ -42,6 +42,18 @@
       },
       "copper_terminus_new": {
         "textures": "textures/blocks/copper_terminus_new"
+      },
+      "iron_terminus_new": {
+        "textures": "textures/blocks/iron_terminus_new"
+      },
+      "gold_terminus_new": {
+        "textures": "textures/blocks/gold_terminus_new"
+      },
+      "emerald_terminus_new": {
+        "textures": "textures/blocks/emerald_terminus_new"
+      },
+      "diamond_terminus_new": {
+        "textures": "textures/blocks/diamond_terminus_new"
       }
     }
   }
