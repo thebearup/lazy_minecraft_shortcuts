@@ -2,7 +2,7 @@
     "format_version": 1.12,
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "lazy:arcane_enchanting_table"
+            "identifier": "lazy:arcane_enchanting_spawner"
         },
         "tags": [
             "crafting_table"
@@ -24,7 +24,7 @@
             }
         },
         "result": {
-            "item": "lazy:arcane_enchanting_table"
+            "item": "lazy:arcane_enchanting_spawner"
         }
     }
 }

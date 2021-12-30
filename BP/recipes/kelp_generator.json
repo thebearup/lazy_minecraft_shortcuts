@@ -2,7 +2,7 @@
     "format_version": 1.12,
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "lazy:kelp_generator"
+            "identifier": "lazy:kelp_generator_spawner"
         },
         "tags": [
             "crafting_table"
@@ -24,7 +24,7 @@
             }
         },
         "result": {
-            "item": "lazy:kelp_generator"
+            "item": "lazy:kelp_generator_spawner"
         }
     }
 }

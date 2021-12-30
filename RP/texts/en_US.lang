@@ -3,9 +3,14 @@ pack.description=This enables some functions and recipes that make my routine ta
 tile.lazy:lesser_enchanting_table.name=Lesser Enchanting Table
 tile.lazy:greater_enchanting_table.name=Greater Enchanting Table
 tile.lazy:arcane_enchanting_table.name=Arcane Enchanting Table
+tile.lazy:kelp_generator.name=Kelp Generator
 tile.lazy:copper_terminus.name=Copper Terminus
 item.lazy:copper_idol.name=Copper Totem
 item.lazy:boring_wand.name=Boring Wand
+item.lazy:kelp_generator_spawner.name=Kelp Generator
+item.lazy:lesser_enchanting_spawner.name=Lesser Enchanting Table
+item.lazy:greater_enchanting_spawner.name=Greater Enchanting Table
+item.lazy:arcane_enchanting_spawner.name=Arcane Enchanting Table
 
 
 

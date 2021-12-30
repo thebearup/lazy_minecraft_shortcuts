@@ -7,3 +7,4 @@ fill ^-1 ^1 ^1 ^1 ^2 ^5 air 0 replace dirt
 fill ^-1 ^1 ^1 ^1 ^2 ^5 air 0 replace blackstone
 fill ^-1 ^1 ^1 ^1 ^2 ^5 air 0 replace netherrack
 fill ^-1 ^1 ^1 ^1 ^2 ^5 air 0 replace grass
+fill ^-1 ^1 ^1 ^1 ^2 ^5 air 0 replace soul_sand

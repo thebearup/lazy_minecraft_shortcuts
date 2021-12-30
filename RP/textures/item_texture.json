@@ -7,6 +7,19 @@
     },
     "copper_totem": {
       "textures": "textures/items/copper_totem"
+    },
+    "kelp_generator_spawner": {
+      "textures": "textures/items/kelp_generator_spawner"
+    },
+    "lesser_enchanting_spawner": {
+      "textures": "textures/items/lesser_enchanting_spawner"
+    },
+    "greater_enchanting_spawner": {
+      "textures": "textures/items/greater_enchanting_spawner"
+    },
+    "arcane_enchanting_spawner": {
+      "textures": "textures/items/arcane_enchanting_spawner"
     }
+
   }
 }
