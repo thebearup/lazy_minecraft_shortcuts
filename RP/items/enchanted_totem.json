@@ -2,11 +2,11 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "lazy:copper_totem",
+      "identifier": "lazy:enchanted_totem",
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": "copper_totem",
+      "minecraft:icon": "enchanted_totem",
       "minecraft:render_offsets": "miscellaneous"
     }
   }

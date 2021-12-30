@@ -5,8 +5,8 @@
     "boring_wand": {
       "textures": "textures/items/boring_wand"
     },
-    "copper_totem": {
-      "textures": "textures/items/copper_totem"
+    "enchanted_totem": {
+      "textures": "textures/items/enchanted_totem"
     },
     "kelp_generator_spawner": {
       "textures": "textures/items/kelp_generator_spawner"

@@ -2,12 +2,12 @@
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "lazy:copper_totem",
+            "identifier": "lazy:enchanted_totem",
             "category": "equipment"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "copper_totem"
+                "texture": "enchanted_totem"
             },
             "minecraft:display_name": {},
             "minecraft:creative_category": {
@@ -22,7 +22,7 @@
                 "slot": "shears"
             },
             "minecraft:durability": {
-                "max_durability": 120,
+                "max_durability": 2,
                 "damage_chance": {
                     "min": 90,
                     "max": 100
@@ -32,10 +32,10 @@
                 "repair_items": [
                     {
                         "items": [
-                            "lazy:copper_totem",
-                            "minecraft:copper_ingot"
+                            "lazy:enchanted_totem",
+                            "minecraft:lapis_block"
                         ],
-                        "repair_amount": 60
+                        "repair_amount": 3
                     }
                 ]
             },
@@ -46,7 +46,7 @@
                 }
             },
             "minecraft:cooldown": {
-                "category": "copper_totem",
+                "category": "enchanted_totem",
                 "duration": 1.0
             },
             "minecraft:weapon": {
@@ -77,7 +77,7 @@
                             "command": [
                                 "playsound portal.travel @s ~ ~ ~ 0.6",
                                 "particle minecraft:totem_particle ~ ~1 ~",
-                                "teleport @e[type=npc,c=1,name=CopperTerminus]",
+                                "teleport @e[type=npc,c=1,name=Enchanter]",
                                 "playsound portal.travel @s ~ ~ ~ 0.6",
                                 "particle minecraft:totem_particle ~ ~1 ~"
                             ],
