@@ -75,8 +75,11 @@
                     {
                         "run_command": {
                             "command": [
-                                "teleport @e[type=npc,name=CopperTerminus]",
-                                "playsound mob.evocation_illager.cast_spell @s ~ ~ ~ 0.6"
+                                "playsound portal.travel @s ~ ~ ~ 0.6",
+                                "particle minecraft:totem_particle ~ ~1 ~",
+                                "teleport @e[type=npc,c=1,name=CopperTerminus]",
+                                "playsound portal.travel @s ~ ~ ~ 0.6",
+                                "particle minecraft:totem_particle ~ ~1 ~"
                             ],
                             "target": "holder"
                         }

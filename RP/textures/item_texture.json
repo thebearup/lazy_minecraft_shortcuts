@@ -19,6 +19,9 @@
     },
     "arcane_enchanting_spawner": {
       "textures": "textures/items/arcane_enchanting_spawner"
+    },
+    "copper_terminus_spawner": {
+      "textures": "textures/items/copper_terminus_spawner"
     }
 
   }

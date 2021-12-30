@@ -39,6 +39,9 @@
       },
       "kelp_generator_side":{
         "textures": "textures/blocks/kelp_generator"
+      },
+      "copper_terminus_new": {
+        "textures": "textures/blocks/copper_terminus_new"
       }
     }
   }

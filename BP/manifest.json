@@ -17,8 +17,13 @@
 	],
 	"dependencies": [
 		{
-		  "uuid": "48f52d35-8c0f-426c-bfd8-34a918cc8907",
-		  "version": [1, 2, 0]
+			"uuid": "48f52d35-8c0f-426c-bfd8-34a918cc8907",
+			"version": [1, 2, 0]
 		}
-	  ]
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [ "2.1.2"]
+		}
+	}
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.0",
+    "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
             "identifier": "lazy:copper_terminus",
@@ -16,7 +16,7 @@
             },
             "minecraft:map_color": "#FFFFFF",
             "minecraft:block_light_absorption": 0,
-            "minecraft:block_light_emission": 0.250,
+            "minecraft:block_light_emission": 0.750,
             "minecraft:on_placed": {
                 "event": "block_placed",
                 "target": "self"
@@ -24,13 +24,33 @@
             "minecraft:on_player_destroyed":{
                 "event" : "block_destroyed",
                 "target": "self"
-            }
+            },
+            "minecraft:on_interact": {
+                "event": "teleporter",
+                "target" : "self"
+            },
+            "minecraft:geometry": "geometry.teleporter_pad",
+			"minecraft:material_instances": {
+				"*": {
+                    "texture": "copper_terminus_new",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [	-8,	0,-8],
+				"size": [16, 2,	16]
+			},
+			"minecraft:entity_collision": {
+				"origin": [	-8,	0, -8],
+				"size": [ 16, 2, 16	]
+			}
         },
         "events": {
           "block_placed": {
               "run_command": {
                   "command": [
-                      "summon npc CopperTerminus ~ ~1 ~"
+                      "summon npc CopperTerminus ~ ~1 ~",
+                      "dialogue change @e[type=npc,c=1,r=1] teleport_terminus_main"
                   ]
               }
           },
@@ -40,6 +60,13 @@
                       "kill @e[family=npc,c=1,r=1]"
                   ]
               }
+          },
+          "teleporter": {
+            "run_command": {
+                "command": [
+                    "dialogue open @e[type=npc,c=1] @p teleport_terminus_main"
+                ]
+            }
           }
         }
     }
