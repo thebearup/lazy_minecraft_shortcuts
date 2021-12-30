@@ -50,14 +50,16 @@
               "run_command": {
                   "command": [
                       "summon npc DiamondTerminus ~ ~1 ~",
-                      "dialogue change @e[type=npc,c=1,r=1] teleport_terminus_main"
+                      "dialogue change @e[type=npc,c=1,r=1] teleport_terminus_main",
+                      "tickingarea add ~ ~ ~ ~ ~ ~"
                   ]
               }
           },
           "block_destroyed": {
               "run_command": {
                   "command": [
-                      "kill @e[family=npc,c=1,r=1]"
+                      "kill @e[family=npc,c=1,r=1]",
+                      "tickingarea remove ~ ~ ~"
                   ]
               }
           },
