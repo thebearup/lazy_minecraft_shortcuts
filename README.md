@@ -4,14 +4,28 @@
 This is an addon that simplifies some things I commonly do in Minecraft.
 It's not really meant to change the game so much as simplify the more grindy elements of the game.
 ## Implemented
-- **Clear Function**: Run `/function clear` to remove all non-ore block in a 40x10x40 box around you.
+### Added Functionality
+- **Terminus**: Teleport between locations.
+    - 5 craftable types (Copper, Iron, Gold, Emrald, and Diamond).
+    - Automatically adds/removes ticking area when placed/removed. **Limit of 10 ticking areas in Bedrock worlds**.
+- **Enchanted Totem**: Teleports to nearest enchanting table.
+    - Resembles homeward bone from Dark Souls.
 - **Lesser Enchanting Table**: Grants low-level enchantments for 4XP levels.
+    - Also grants Silk Touch and Fortune 1
 - **Greater Enchanting Table**: Grants high-level enchantments for 8XP levels.
+    - Also grants Silk Touch and Fortune 2
 - **Arcane Enchanting Table**: Grants additional enchantments for 16XP levels.
-- **Kelp Generator**: Generates kelp on event: `on_interact` and `on_fall_on`.
+- **Kelp Generator**: Generates kelp at regular intervals. 
+    - Avoid the complexity of zero-tick kelp/XP farms.
+- **Zombie Spawner**: Generates zombies at regular intervals.Can only be placed on existing mob spawners.
+    - Beefs up the efficiency of mob spawner farms, and works around a 1.18 bug where mob spawners don't work.
+- **Boring Wand**: Clears a 3x2x5 space in front of the player. Removes most common blocks (stone, gravel, netherrack, etc).
+
+### Recipes for Existing Stuff
 - **Trident Recipe**: `Tridents` are scarce early game and abundant late game. This makes them a bit easier to acquire.
 - **Saddle Recipe**: `Saddles` are scarce early game (when you need them) and abundant later (when you don't).
 - **Quartz Recipe**: Convert your `quartz_blocks` back into `quartz`! This was a dumb "[feature](https://feedback.minecraft.net/hc/en-us/community/posts/360043032171-Quartz-Block-to-Nether-Quartz)" anyway.
+- **Scute Recipe**: Save some time waiting for eggs to hatch and baby turtles to grow.
 - **Creeper Spawn Egg**: Turn a mob spawner into your very own gunpowder farm.
 - **Zombie Villager Spawn Egg**: Easily build your trading hall, with discounts.
 - Smelt leather components down to `rabbit_hide` via furnace.
@@ -36,9 +50,15 @@ It's not really meant to change the game so much as simplify the more grindy ele
 |![Alt text](media/lesser_enchanting_recipe.png "Lesser Enchanting Table")|![Alt text](media/lesser_enchanting_dialog.png "Lesser Enchanting Table")|
 |![Alt text](media/greater_enchanting_recipe.png "Greater Enchanting Table")|![Alt text](media/greater_enchanting_dialog.png "Greater Enchanting Table")|
 |![Alt text](media/arcane_enchanting_recipe.png "Arcane Enchanting Table")|![Alt text](media/arcane_enchanting_dialog.png "Arcane Enchanting Table")|
+|![Alt text](media/copper_terminus_recipe.png "Copper Terminus")|![Alt text](media/terminus_dialog.png "Terminus Dialog")|
+
 
 |   |   |
 |---|---|
-|![Alt text](media/kelp_generator_recipe.png "Kelp Generator")|![Alt text](media/quartz_recipe.png "Quartz")|
+|![Alt text](media/iron_terminus_recipe.png "Iron Terminus")|![Alt text](media/gold_terminus_recipe.png "Gold Terminus")|
+|![Alt text](media/emerald_terminus_recipe.png "Emerald Terminus")|![Alt text](media/diamond_terminus_recipe.png "Diamond Terminus")|
+|![Alt text](media/enchanted_totem_recipe.png "Enchanted Totem")|![Alt text](media/boring_wand_recipe.png "Boring Wand")|
+|![Alt text](media/kelp_generator_recipe.png "Kelp Generator")|![Alt text](media/zombie_spawner_recipe.png "Zombie Spawner")|
 |![Alt text](media/saddle_recipe.png "Saddle")|![Alt text](media/trident.png "Trident")|
+|![Alt text](media/quartz_recipe.png "Quartz")|![Alt text](media/scute_recipe.png "Scute")|
 
