@@ -11,6 +11,9 @@
     "kelp_generator_spawner": {
       "textures": "textures/items/kelp_generator_spawner"
     },
+    "zombie_spawner_spawner": {
+      "textures": "textures/items/zombie_spawner_spawner"
+    },
     "lesser_enchanting_spawner": {
       "textures": "textures/items/lesser_enchanting_spawner"
     },

@@ -40,6 +40,9 @@
       "kelp_generator_side":{
         "textures": "textures/blocks/kelp_generator"
       },
+      "zombie_spawner_side":{
+        "textures": "textures/blocks/zombie_spawner"
+      },
       "copper_terminus_new": {
         "textures": "textures/blocks/copper_terminus_new"
       },

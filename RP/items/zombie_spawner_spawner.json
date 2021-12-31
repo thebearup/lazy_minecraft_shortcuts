@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lazy:zombie_spawner_spawner",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "zombie_spawner_spawner",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

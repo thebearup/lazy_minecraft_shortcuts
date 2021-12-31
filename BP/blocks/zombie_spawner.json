@@ -1,0 +1,47 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "lazy:zombie_spawner",
+            "is_experimental": false,
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:destroy_time": 1,
+            "minecraft:explosion_resistance": 5,
+            "minecraft:friction": 0.6,
+            "minecraft:flammable": {
+                "flame_odds": 0,
+                "burn_odds": 0
+            },
+            "minecraft:map_color": "#FFFFFF",
+            "minecraft:block_light_absorption": 0,
+            "minecraft:block_light_emission": 0.250,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                    "allowed_faces": ["all"],
+                    "block_filter": ["mob_spawner"]
+                    }
+                ]
+            },
+            "minecraft:ticking": {
+                "looping": true,
+                "range": [0, 10],
+                "on_tick": {
+                    "event": "spawn_zombie",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "spawn_zombie": {
+                "run_command": {
+                    "command": [
+                        "summon zombie ~ ~-1 ~"
+                    ]
+                }
+            }
+        }
+    }
+}

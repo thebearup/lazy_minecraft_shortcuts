@@ -1,0 +1,27 @@
+{
+    "format_version": 1.12,
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "lazy:zombie_spawner_spawner"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " X",
+            "XYX",
+            " X"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:redstone_block"
+            },
+            "Y": {
+                "item": "minecraft:rotten_flesh"
+            }
+        },
+        "result": {
+            "item": "lazy:zombie_spawner_spawner"
+        }
+    }
+}
