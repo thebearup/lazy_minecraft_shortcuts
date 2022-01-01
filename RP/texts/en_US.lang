@@ -3,6 +3,7 @@ pack.description=This enables some functions and recipes that make my routine ta
 tile.lazy:lesser_enchanting_table.name=Lesser Enchanting Table
 tile.lazy:greater_enchanting_table.name=Greater Enchanting Table
 tile.lazy:arcane_enchanting_table.name=Arcane Enchanting Table
+tile.lazy:locator.name=Arcane Locator
 tile.lazy:kelp_generator.name=Kelp Generator
 tile.lazy:zombie_spawner.name=Zombie Spawner
 tile.lazy:copper_terminus.name=Copper Terminus
@@ -23,5 +24,6 @@ item.lazy:iron_terminus_spawner.name=Iron Terminus
 item.lazy:gold_terminus_spawner.name=Gold Terminus
 item.lazy:emerald_terminus_spawner.name=Emerald Terminus
 item.lazy:diamond_terminus_spawner.name=Diamond Terminus
+item.lazy:locator_spawner.name=Arcane Locator
 
 

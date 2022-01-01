@@ -43,6 +43,9 @@
       "zombie_spawner_side":{
         "textures": "textures/blocks/zombie_spawner"
       },
+      "locator": {
+        "textures": "textures/blocks/locator"
+      },
       "copper_terminus_new": {
         "textures": "textures/blocks/copper_terminus_new"
       },

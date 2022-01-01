@@ -24,6 +24,9 @@
               },
             "sound": "stone"
         },
+        "lazy:locator": {
+            "sound": "stone"
+          },
         "lazy:copper_terminus": {
             "sound": "metal"
         },
