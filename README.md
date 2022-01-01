@@ -15,6 +15,9 @@ It's not really meant to change the game so much as simplify the more grindy ele
 - **Greater Enchanting Table**: Grants high-level enchantments for 8XP levels.
     - Also grants Silk Touch and Fortune 2
 - **Arcane Enchanting Table**: Grants additional enchantments for 16XP levels.
+- **Arcane Locator**: Gives the coordinates of various structures
+    - This will temporarily generate command blocks at the world ceiling, but should be minimally disruptive.
+    - For some reason the output of the `locate` command is suppressed when called from an item event or NPC. Hence the hacky command-block implementation.
 - **Kelp Generator**: Generates kelp at regular intervals. 
     - Avoid the complexity of zero-tick kelp/XP farms.
 - **Zombie Spawner**: Generates zombies at regular intervals.Can only be placed on existing mob spawners.
@@ -51,6 +54,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
 |![Alt text](media/greater_enchanting_recipe.png "Greater Enchanting Table")|![Alt text](media/greater_enchanting_dialog.png "Greater Enchanting Table")|
 |![Alt text](media/arcane_enchanting_recipe.png "Arcane Enchanting Table")|![Alt text](media/arcane_enchanting_dialog.png "Arcane Enchanting Table")|
 |![Alt text](media/copper_terminus_recipe.png "Copper Terminus")|![Alt text](media/terminus_dialog.png "Terminus Dialog")|
+|![Alt text](media/locator_recipe.png "Arcane Locator")|![Alt text](media/locator_dialog.png "Locator Dialog")|
 
 
 |   |   |
