@@ -6,7 +6,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
 ## Implemented
 ### Added Functionality
 - **Terminus**: Teleport between locations.
-    - 5 craftable types (Copper, Iron, Gold, Emrald, and Diamond).
+    - 5 craftable types (Copper, Iron, Gold, Emerald, and Diamond).
     - Automatically adds/removes ticking area when placed/removed. **Limit of 10 ticking areas in Bedrock worlds**.
 - **Enchanted Totem**: Teleports to nearest enchanting table.
     - Resembles homeward bone from Dark Souls.
@@ -15,6 +15,8 @@ It's not really meant to change the game so much as simplify the more grindy ele
 - **Greater Enchanting Table**: Grants high-level enchantments for 8XP levels.
     - Also grants Silk Touch and Fortune 2
 - **Arcane Enchanting Table**: Grants additional enchantments for 16XP levels.
+- **Seeing Stone**: Locates Ruined Portals and Nether Fortresses.
+    - Crafting ingredient for the **Arcane Locator**.
 - **Arcane Locator**: Gives the coordinates of various structures
     - This will temporarily generate command blocks at the world ceiling, but should be minimally disruptive.
     - For some reason the output of the `locate` command is suppressed when called from an item event or NPC. Hence the hacky command-block implementation.
@@ -63,6 +65,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
 |![Alt text](media/emerald_terminus_recipe.png "Emerald Terminus")|![Alt text](media/diamond_terminus_recipe.png "Diamond Terminus")|
 |![Alt text](media/enchanted_totem_recipe.png "Enchanted Totem")|![Alt text](media/boring_wand_recipe.png "Boring Wand")|
 |![Alt text](media/kelp_generator_recipe.png "Kelp Generator")|![Alt text](media/zombie_spawner_recipe.png "Zombie Spawner")|
+|![Alt text](media/seeing_stone_recipe.png "Seeing Stone")|![Alt text](media/scute_recipe.png "Scute")|
 |![Alt text](media/saddle_recipe.png "Saddle")|![Alt text](media/trident.png "Trident")|
-|![Alt text](media/quartz_recipe.png "Quartz")|![Alt text](media/scute_recipe.png "Scute")|
+|![Alt text](media/quartz_recipe.png "Quartz")||
 
