@@ -2,29 +2,26 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
       "description": {
-      "identifier": "lazy:locator_spawner"
+      "identifier": "lazy:seeing_stone"
       },
   
       
       "tags": [ "crafting_table" ],
       "pattern": [
-        "",
-        "ZYZ",
-        "XXX"
+        " X",
+        "XYX",
+        " X"
       ],
       "key": {
         "X": {
-          "item": "minecraft:crying_obsidian"
+          "item": "minecraft:magma_cream"
         },
         "Y":{
-          "item": "lazy:seeing_stone"
-        },
-        "Z":{
-          "item": "minecraft:blaze_powder"
+          "item": "minecraft:lapis_block"
         }
       },
       "result": {
-        "item": "lazy:locator_spawner"
+        "item": "lazy:seeing_stone"
       }
     }
   }

@@ -19,6 +19,7 @@ item.lazy:lesser_enchanting_spawner.name=Lesser Enchanting Table
 item.lazy:greater_enchanting_spawner.name=Greater Enchanting Table
 item.lazy:arcane_enchanting_spawner.name=Arcane Enchanting Table
 item.lazy:enchanted_totem.name=Enchanted Totem
+item.lazy:seeing_stone.name=Seeing Stone
 item.lazy:copper_terminus_spawner.name=Copper Terminus
 item.lazy:iron_terminus_spawner.name=Iron Terminus
 item.lazy:gold_terminus_spawner.name=Gold Terminus

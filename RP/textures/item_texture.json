@@ -8,6 +8,9 @@
     "enchanted_totem": {
       "textures": "textures/items/enchanted_totem"
     },
+    "seeing_stone": {
+      "textures": "textures/items/seeing_stone"
+    },
     "kelp_generator_spawner": {
       "textures": "textures/items/kelp_generator_spawner"
     },
