@@ -42,14 +42,16 @@
               "run_command": {
                   "command": [
                       "summon npc Enchanter ~ ~1 ~",
-                      "dialogue change @e[type=npc,c=1,r=1] lesser_enchant_dialog"
+                      "dialogue change @e[type=npc,c=1,r=1] lesser_enchant_dialog",
+                      "tickingarea add ~ ~ ~ ~ ~ ~"
                   ]
               }
           },
           "block_destroyed": {
               "run_command": {
                   "command": [
-                      "kill @e[family=npc,c=1,r=1]"
+                      "kill @e[family=npc,c=1,r=1]",
+                      "tickingarea remove ~ ~ ~"
                   ]
               }
           }
