@@ -27,4 +27,5 @@ item.lazy:emerald_terminus_spawner.name=Emerald Terminus
 item.lazy:diamond_terminus_spawner.name=Diamond Terminus
 item.lazy:locator_spawner.name=Arcane Locator
 
-
+entity.lazy:npc_eye_green.name=Ender Eye NPC
+entity.lazy:npc_eye_red.name=Seeing Stone NPC
