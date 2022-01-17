@@ -7,6 +7,21 @@
     },
     "zombie_spawner_spawner": {
       "textures": "textures/items/zombie_spawner_spawner"
+    },
+    "copper_chest": {
+      "textures": "textures/items/copper_chest"
+    },
+    "copper_leggings": {
+      "textures": "textures/items/copper_leggings"
+    },
+    "copper_helmet": {
+      "textures": "textures/items/copper_helmet"
+    },
+    "copper_boots": {
+      "textures": "textures/items/copper_boots"
+    },
+    "copper_nugget": {
+      "textures": "textures/items/copper_nugget"
     }
   }
 }
