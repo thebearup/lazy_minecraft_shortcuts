@@ -1,0 +1,64 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lazy:copper_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 190
+			},
+            "minecraft:weapon": {},
+			"minecraft:damage": 5,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "sword"
+			},
+			"minecraft:icon": {
+				"texture": "copper_sword"
+			},
+			"minecraft:display_name": {
+				"value": "Copper Sword"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": "minecraft:copper_ingot",
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					}
+				]
+			},
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 15
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 10
+                    }
+                ],
+                "on_dig":{
+                    "event": "tool_dig_damage"
+                }
+            }
+		},
+        "events": {
+            "tool_dig_damage": {
+                "damage":{
+                    "type":"durability",
+                    "target":"self",
+                    "amount":1
+                }
+            }
+        }
+	}
+}

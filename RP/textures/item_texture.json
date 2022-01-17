@@ -22,6 +22,12 @@
     },
     "copper_nugget": {
       "textures": "textures/items/copper_nugget"
+    },
+    "copper_sword": {
+      "textures": "textures/items/copper_sword"
+    },
+    "copper_axe": {
+      "textures": "textures/items/copper_axe"
     }
   }
 }
