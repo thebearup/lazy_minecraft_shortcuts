@@ -1,47 +1,5 @@
 {
     "format_version": "1.16.0",
-      "lazy:lesser_enchanting_table": {
-        "textures": {
-            "up": "lesser_enchanting_table_top",
-            "down": "lesser_enchanting_table_bottom",
-            "side": "lesser_enchanting_table_side"
-            },
-          "sound": "stone"
-        },
-        "lazy:greater_enchanting_table": {
-          "textures": {
-              "up": "greater_enchanting_table_top",
-              "down": "greater_enchanting_table_bottom",
-              "side": "greater_enchanting_table_side"
-              },
-            "sound": "stone"
-        },
-        "lazy:arcane_enchanting_table": {
-          "textures": {
-              "up": "arcane_enchanting_table_top",
-              "down": "arcane_enchanting_table_bottom",
-              "side": "arcane_enchanting_table_side"
-              },
-            "sound": "stone"
-        },
-        "lazy:locator": {
-            "sound": "stone"
-          },
-        "lazy:copper_terminus": {
-            "sound": "metal"
-        },
-        "lazy:iron_terminus": {
-          "sound": "metal"
-        },
-        "lazy:gold_terminus": {
-          "sound": "metal"
-        },
-        "lazy:emerald_terminus": {
-          "sound": "metal"
-        },
-        "lazy:diamond_terminus": {
-          "sound": "metal"
-        },
         "lazy:kelp_generator": {
           "textures": {
               "up": "kelp_generator_top",
