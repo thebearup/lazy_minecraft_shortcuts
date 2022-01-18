@@ -14,7 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {},
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "tool_dig_damage",
+                    "target": "self"
+                }
+            },
 			"minecraft:damage": 4,
 			"minecraft:enchantable": {
 				"value": 15,
@@ -48,6 +53,48 @@
 						}
                     },
 					{
+                        "block": "minecraft:crimson_stem",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+                        "block": "minecraft:warped_stem",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+                        "block": "minecraft:stripped_crimson_stem",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+                        "block": "minecraft:stripped_warped_stem",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+                        "block": "minecraft:crimson_planks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+                        "block": "minecraft:warped_planks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
                         "block": "minecraft:chest",
                         "speed": 6,
 						"on_dig": {
@@ -77,6 +124,13 @@
                     },
 					{
                         "block": "minecraft:cartography_table",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:smoker",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"

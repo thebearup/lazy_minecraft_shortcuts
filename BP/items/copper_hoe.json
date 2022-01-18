@@ -14,7 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {},
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "tool_dig_damage",
+                    "target": "self"
+                }
+            },
 			"minecraft:damage": 3,
 			"minecraft:enchantable": {
 				"value": 15,

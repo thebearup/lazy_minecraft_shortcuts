@@ -14,7 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {},
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "tool_dig_damage",
+                    "target": "self"
+                }
+            },
 			"minecraft:damage": 5,
 			"minecraft:enchantable": {
 				"value": 15,
@@ -39,11 +44,17 @@
                 "destroy_speeds": [
                     {
                         "block": "minecraft:web",
-                        "speed": 6
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
                     },
                     {
                         "block": "minecraft:bamboo",
-                        "speed": 6
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
                     }
                 ],
                 "on_dig":{

@@ -14,7 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {},
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "tool_dig_damage",
+                    "target": "self"
+                }
+            },
 			"minecraft:damage": 3,
 			"minecraft:enchantable": {
 				"value": 15,
@@ -70,6 +75,34 @@
 							"tags": "q.any_tag('grass')"
 						},
 						"speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:podzol",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:concretepowder",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+                    {
+                        "block": "minecraft:soul_sand",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+                    {
+                        "block": "minecraft:soul_soil",
+                        "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}

@@ -14,7 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {},
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "tool_dig_damage",
+                    "target": "self"
+                }
+            },
 			"minecraft:damage": 3,
 			"minecraft:enchantable": {
 				"value": 15,
@@ -34,12 +39,13 @@
 					}
 				]
 			},
+			"minecraft:mining_speed": 6,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
 						"block": {
-							"tags": "q.any_tag('stone')"
+							"tags": "q.any_tag('stone', 'metal', 'stone_pick_diggable', 'wood_pick_diggable', 'gold_pick_diggable')"
 						},
 						"speed": 6,
 						"on_dig": {
@@ -51,42 +57,6 @@
 							"tags": "q.any_tag('wood')"
 						},
 						"speed": 2,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-						"block": {
-							"tags": "q.any_tag('metal')"
-						},
-						"speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-						"block": {
-							"tags": "q.any_tag('stone_pick_diggable')"
-						},
-						"speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-						"block": {
-							"tags": "q.any_tag('wood_pick_diggable')"
-						},
-						"speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-						"block": {
-							"tags": "q.any_tag('gold_pick_diggable')"
-						},
-						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
@@ -127,7 +97,70 @@
 						}
                     },
 					{
+                        "block": "minecraft:sandstone",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:red_sandstone",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:smooth_stone",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:stonebrick",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:hardened_clay",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:stained_hardened_clay",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:concrete",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
                         "block": "minecraft:calcite",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:prismarine",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:nether_brick",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
@@ -232,8 +265,78 @@
 						}
                     },
 					{
+                        "block": "minecraft:redstone_block",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:quartz_block",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:ice",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:blue_ice",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:magma",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:bone_block",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
                         "block": "minecraft:furnace",
                         "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:blast_furnace",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:shulker_box",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:stonecutter_block",
+                        "speed": 4,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:grindstone",
+                        "speed": 4,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
@@ -252,6 +355,48 @@
 							"event": "tool_dig_damage"
 						}
                     },
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_stem",
+						"speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+					},
 					{
                         "block": "minecraft:lectern",
                         "speed": 2,
@@ -272,8 +417,14 @@
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
+                    },
+					{
+                        "block": "minecraft:smoker",
+                        "speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
                     }
-					
                 ],
                 "on_dig":{
                     "event": "tool_dig_damage"
