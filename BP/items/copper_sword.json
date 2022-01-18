@@ -39,11 +39,11 @@
                 "destroy_speeds": [
                     {
                         "block": "minecraft:web",
-                        "speed": 15
+                        "speed": 6
                     },
                     {
                         "block": "minecraft:bamboo",
-                        "speed": 10
+                        "speed": 6
                     }
                 ],
                 "on_dig":{

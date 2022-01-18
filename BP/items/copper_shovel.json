@@ -2,12 +2,12 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "lazy:copper_axe",
+			"identifier": "lazy:copper_shovel",
 			"category": "equipment"
 		},
 		"components": {
 			"minecraft:creative_category": {
-				"parent": "itemGroup.name.axe"
+				"parent": "itemGroup.name.shovel"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
@@ -15,16 +15,16 @@
 				"max_durability": 190
 			},
             "minecraft:weapon": {},
-			"minecraft:damage": 4,
+			"minecraft:damage": 3,
 			"minecraft:enchantable": {
 				"value": 15,
-				"slot": "axe"
+				"slot": "shovel"
 			},
 			"minecraft:icon": {
-				"texture": "copper_axe"
+				"texture": "copper_shovel"
 			},
 			"minecraft:display_name": {
-				"value": "Copper Axe"
+				"value": "Copper Shovel"
 			},
 			"minecraft:repairable": {
 				"repair_items": [
@@ -34,13 +34,13 @@
 					}
 				]
 			},
-			"tag:minecraft:is_axe": {},
+			"tag:minecraft:is_shovel": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
-                    {
+					{
 						"block": {
-							"tags": "q.any_tag('wood')"
+							"tags": "q.any_tag('dirt')"
 						},
 						"speed": 6,
 						"on_dig": {
@@ -48,36 +48,28 @@
 						}
                     },
 					{
-                        "block": "minecraft:chest",
-                        "speed": 6,
+						"block": {
+							"tags": "q.any_tag('sand')"
+						},
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
                     },
 					{
-                        "block": "minecraft:crafting_table",
-                        "speed": 6,
+						"block": {
+							"tags": "q.any_tag('gravel')"
+						},
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
                     },
 					{
-                        "block": "minecraft:lectern",
-                        "speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-                        "block": "minecraft:bookshelf",
-                        "speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-                        "block": "minecraft:cartography_table",
-                        "speed": 6,
+						"block": {
+							"tags": "q.any_tag('grass')"
+						},
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}

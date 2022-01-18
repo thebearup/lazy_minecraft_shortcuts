@@ -2,12 +2,12 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "lazy:copper_axe",
+			"identifier": "lazy:copper_hoe",
 			"category": "equipment"
 		},
 		"components": {
 			"minecraft:creative_category": {
-				"parent": "itemGroup.name.axe"
+				"parent": "itemGroup.name.hoe"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
@@ -15,16 +15,16 @@
 				"max_durability": 190
 			},
             "minecraft:weapon": {},
-			"minecraft:damage": 4,
+			"minecraft:damage": 3,
 			"minecraft:enchantable": {
 				"value": 15,
-				"slot": "axe"
+				"slot": "hoe"
 			},
 			"minecraft:icon": {
-				"texture": "copper_axe"
+				"texture": "copper_hoe"
 			},
 			"minecraft:display_name": {
-				"value": "Copper Axe"
+				"value": "Copper Hoe"
 			},
 			"minecraft:repairable": {
 				"repair_items": [
@@ -34,49 +34,26 @@
 					}
 				]
 			},
-			"tag:minecraft:is_axe": {},
+			"tag:minecraft:is_hoe": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
-                    {
-						"block": {
-							"tags": "q.any_tag('wood')"
-						},
-						"speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
 					{
-                        "block": "minecraft:chest",
+                        "block": "minecraft:hay_bale",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
                     },
 					{
-                        "block": "minecraft:crafting_table",
+                        "block": "minecraft:leaves",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
                     },
 					{
-                        "block": "minecraft:lectern",
-                        "speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-                        "block": "minecraft:bookshelf",
-                        "speed": 6,
-						"on_dig": {
-							"event": "tool_dig_damage"
-						}
-                    },
-					{
-                        "block": "minecraft:cartography_table",
+                        "block": "minecraft:leaves2",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"

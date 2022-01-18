@@ -28,6 +28,15 @@
     },
     "copper_axe": {
       "textures": "textures/items/copper_axe"
+    },
+    "copper_hoe": {
+      "textures": "textures/items/copper_hoe"
+    },
+    "copper_shovel": {
+      "textures": "textures/items/copper_shovel"
+    },
+    "copper_pickaxe": {
+      "textures": "textures/items/copper_pickaxe"
     }
   }
 }
