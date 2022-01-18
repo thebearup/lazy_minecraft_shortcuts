@@ -155,7 +155,7 @@
 						}
                     },
 					{
-                        "block": "minecraft:disenser",
+                        "block": "minecraft:dispenser",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
