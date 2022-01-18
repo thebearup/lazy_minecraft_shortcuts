@@ -34,7 +34,11 @@
 			"minecraft:repairable": {
 				"repair_items": [
 					{
-						"items": "minecraft:copper_ingot",
+						"items": ["minecraft:copper_ingot"],
+						"repair_amount": 50
+					},
+					{
+						"items": ["lazy:copper_sword"],
 						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
 					}
 				]

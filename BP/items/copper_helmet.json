@@ -21,13 +21,17 @@
 				"slot": "armor_head"
 			},
 			"minecraft:armor": {
-				"protection": 1
+				"protection": 2
 			},
 			"minecraft:repairable": {
 				"repair_items": [
 					{
 						"items": ["minecraft:copper_ingot"],
 						"repair_amount": 50
+					},
+					{
+						"items": ["lazy:copper_helmet"],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
 					}
 				]
 			},
