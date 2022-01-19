@@ -1,13 +1,13 @@
 {
   "format_version": "1.10",
   "minecraft:item": {
-    "description": {
-      "identifier": "lazy:kelp_generator_spawner",
-      "category": "Equipment"
-    },
-    "components": {
-      "minecraft:icon": "kelp_generator_spawner",
-      "minecraft:render_offsets": "miscellaneous"
-    }
+	"description": {
+	  "identifier": "lazy:kelp_generator_spawner",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "kelp_generator_spawner",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
   }
 }

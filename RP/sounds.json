@@ -1,15 +1,15 @@
 { 
   "entity_sounds": {
-      "entities": {
-          "npc": {
-              "volume": 0.0,
-              "pitch": [ 0.8, 1.2 ],
-              "events": {
-                "ambient": "",
-                "hurt": "",
-                "death": ""
-              }
-          }
-      }
+	  "entities": {
+		  "npc": {
+			  "volume": 0.0,
+			  "pitch": [ 0.8, 1.2 ],
+			  "events": {
+				"ambient": "",
+				"hurt": "",
+				"death": ""
+			  }
+		  }
+	  }
   }
 }
