@@ -73,7 +73,91 @@
 						}
                     },
 					{
+                        "block": "minecraft:polished_deepslate",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:cobbled_deepslate",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:deepslate_tiles",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:cracked_deepslate_tiles",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:deepslate_bricks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:cracked_deepslate_bricks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:chiseled_deepslate",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:end_stone",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:end_bricks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:purpur_block",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
                         "block": "minecraft:netherrack",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:crimson_nylium",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:warped_nylium",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
@@ -171,6 +255,27 @@
 						}
                     },
 					{
+                        "block": "minecraft:red_nether_brick",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:chiseled_nether_bricks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:cracked_nether_bricks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
                         "block": "minecraft:blackstone",
                         "speed": 6,
 						"on_dig": {
@@ -178,7 +283,49 @@
 						}
                     },
 					{
+                        "block": "minecraft:polished_blackstone",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:polished_blackstone_bricks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:cracked_polished_blackstone_bricks",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:gilded_blackstone",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:chiseled_polished_blackstone",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
                         "block": "minecraft:amethyst_block",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:anvil",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
@@ -221,6 +368,13 @@
                     },
 					{
                         "block": "minecraft:deepslate_coal_ore",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:coal_block",
                         "speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
@@ -339,6 +493,13 @@
 						}
                     },
 					{
+                        "block": "minecraft:brewing_stand",
+                        "speed": 6,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
                         "block": "minecraft:stonecutter_block",
                         "speed": 4,
 						"on_dig": {
@@ -424,6 +585,20 @@
                     },
 					{
                         "block": "minecraft:cartography_table",
+                        "speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:fletching_table",
+                        "speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
+                    },
+					{
+                        "block": "minecraft:composter",
                         "speed": 2,
 						"on_dig": {
 							"event": "tool_dig_damage"
