@@ -14,12 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {
-                "on_hurt_entity": {
-                    "event": "tool_dig_damage",
-                    "target": "self"
-                }
-            },
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "tool_dig_damage",
+					"target": "self"
+				}
+			},
 			"minecraft:damage": 3,
 			"minecraft:enchantable": {
 				"value": 15,
@@ -44,9 +44,9 @@
 				]
 			},
 			"tag:minecraft:is_shovel": {},
-            "minecraft:digger": {
-                "use_efficiency": true,
-                "destroy_speeds": [
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
 					{
 						"block": {
 							"tags": "q.any_tag('dirt')"
@@ -55,7 +55,7 @@
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
 						"block": {
 							"tags": "q.any_tag('sand')"
@@ -64,7 +64,7 @@
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
 						"block": {
 							"tags": "q.any_tag('gravel')"
@@ -73,7 +73,7 @@
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
 						"block": {
 							"tags": "q.any_tag('grass')"
@@ -82,56 +82,56 @@
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:podzol",
-                        "speed": 6,
+						"block": "minecraft:podzol",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:concretepowder",
-                        "speed": 6,
+						"block": "minecraft:concretepowder",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
-                    {
-                        "block": "minecraft:soul_sand",
-                        "speed": 6,
+					},
+					{
+						"block": "minecraft:soul_sand",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
-                    {
-                        "block": "minecraft:soul_soil",
-                        "speed": 6,
+					},
+					{
+						"block": "minecraft:soul_soil",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    }
-                ],
-                "on_dig":{
-                    "event": "tool_dig_damage"
-                }
-            }
-		},
-        "events": {
-            "tool_dig_damage": {
-                "damage":{
-                    "type":"durability",
-                    "target":"self",
-                    "amount":1
-                }
-            },
-			"on_tool_used": {
-                "damage":{
-                    "type":"durability",
-                    "target":"self",
-                    "amount":2
-                }
+					}
+				],
+				"on_dig":{
+					"event": "tool_dig_damage"
+				}
 			}
-        }
+		},
+		"events": {
+			"tool_dig_damage": {
+				"damage":{
+					"type":"durability",
+					"target":"self",
+					"amount":1
+				}
+			},
+			"on_tool_used": {
+				"damage":{
+					"type":"durability",
+					"target":"self",
+					"amount":2
+				}
+			}
+		}
 	}
 }

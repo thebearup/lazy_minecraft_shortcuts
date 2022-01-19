@@ -14,12 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {
-                "on_hurt_entity": {
-                    "event": "tool_dig_damage",
-                    "target": "self"
-                }
-            },
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "tool_dig_damage",
+					"target": "self"
+				}
+			},
 			"minecraft:damage": 4,
 			"minecraft:enchantable": {
 				"value": 15,
@@ -44,10 +44,10 @@
 				]
 			},
 			"tag:minecraft:is_axe": {},
-            "minecraft:digger": {
-                "use_efficiency": true,
-                "destroy_speeds": [
-                    {
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
 						"block": {
 							"tags": "q.any_tag('wood')"
 						},
@@ -55,112 +55,112 @@
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:crimson_stem",
-                        "speed": 6,
+						"block": "minecraft:crimson_stem",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
 					},
 					{
-                        "block": "minecraft:warped_stem",
-                        "speed": 6,
+						"block": "minecraft:warped_stem",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
 					},
 					{
-                        "block": "minecraft:stripped_crimson_stem",
-                        "speed": 6,
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
 					},
 					{
-                        "block": "minecraft:stripped_warped_stem",
-                        "speed": 6,
+						"block": "minecraft:stripped_warped_stem",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
 					},
 					{
-                        "block": "minecraft:crimson_planks",
-                        "speed": 6,
+						"block": "minecraft:crimson_planks",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
 					},
 					{
-                        "block": "minecraft:warped_planks",
-                        "speed": 6,
+						"block": "minecraft:warped_planks",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
 					},
 					{
-                        "block": "minecraft:chest",
-                        "speed": 6,
+						"block": "minecraft:chest",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:crafting_table",
-                        "speed": 6,
+						"block": "minecraft:crafting_table",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:lectern",
-                        "speed": 6,
+						"block": "minecraft:lectern",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:bookshelf",
-                        "speed": 6,
+						"block": "minecraft:bookshelf",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:cartography_table",
-                        "speed": 6,
+						"block": "minecraft:cartography_table",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
+					},
 					{
-                        "block": "minecraft:smoker",
-                        "speed": 6,
+						"block": "minecraft:smoker",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    }
-                ],
-                "on_dig":{
-                    "event": "tool_dig_damage"
-                }
-            }
-		},
-        "events": {
-            "tool_dig_damage": {
-                "damage":{
-                    "type":"durability",
-                    "target":"self",
-                    "amount":1
-                }
-            },
-			"on_tool_used": {
-                "damage":{
-                    "type":"durability",
-                    "target":"self",
-                    "amount":2
-                }
+					}
+				],
+				"on_dig":{
+					"event": "tool_dig_damage"
+				}
 			}
-        }
+		},
+		"events": {
+			"tool_dig_damage": {
+				"damage":{
+					"type":"durability",
+					"target":"self",
+					"amount":1
+				}
+			},
+			"on_tool_used": {
+				"damage":{
+					"type":"durability",
+					"target":"self",
+					"amount":2
+				}
+			}
+		}
 	}
 }

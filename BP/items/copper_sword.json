@@ -14,12 +14,12 @@
 			"minecraft:durability": {
 				"max_durability": 190
 			},
-            "minecraft:weapon": {
-                "on_hurt_entity": {
-                    "event": "tool_dig_damage",
-                    "target": "self"
-                }
-            },
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "tool_dig_damage",
+					"target": "self"
+				}
+			},
 			"minecraft:damage": 5,
 			"minecraft:enchantable": {
 				"value": 15,
@@ -43,37 +43,37 @@
 					}
 				]
 			},
-            "minecraft:digger": {
-                "use_efficiency": true,
-                "destroy_speeds": [
-                    {
-                        "block": "minecraft:web",
-                        "speed": 6,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    },
-                    {
-                        "block": "minecraft:bamboo",
-                        "speed": 6,
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 6,
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
-                    }
-                ],
-                "on_dig":{
-                    "event": "tool_dig_damage"
-                }
-            }
+					}
+				],
+				"on_dig":{
+					"event": "tool_dig_damage"
+				}
+			}
 		},
-        "events": {
-            "tool_dig_damage": {
-                "damage":{
-                    "type":"durability",
-                    "target":"self",
-                    "amount":1
-                }
-            }
-        }
+		"events": {
+			"tool_dig_damage": {
+				"damage":{
+					"type":"durability",
+					"target":"self",
+					"amount":1
+				}
+			}
+		}
 	}
 }
