@@ -1,30 +1,30 @@
 {
-    "format_version": 1.12,
-    "minecraft:recipe_shaped": {
-        "description": {
-            "identifier": "lazy:kelp_generator_spawner"
-        },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "XXX",
-            "YZY",
-            "XXX"
-        ],
-        "key": {
-            "X": {
-                "item": "minecraft:cobblestone"
-            },
-            "Y": {
-                "item": "minecraft:kelp"
-            },
-            "Z": {
-                "item": "minecraft:redstone"
-            }
-        },
-        "result": {
-            "item": "lazy:kelp_generator_spawner"
-        }
-    }
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "lazy:kelp_generator_spawner"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"YZY",
+			"XXX"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:cobblestone"
+			},
+			"Y": {
+				"item": "minecraft:kelp"
+			},
+			"Z": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"result": {
+			"item": "lazy:kelp_generator_spawner"
+		}
+	}
 }

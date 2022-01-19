@@ -1,14 +1,14 @@
 {
-    "format_version": "1.12",
-    "minecraft:recipe_furnace": {
-      "description": {
-      "identifier": "lazy:furnace_copper_boots"
-      },
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+	  "description": {
+	  "identifier": "lazy:furnace_copper_boots"
+	  },
   
-      
-      "tags": ["furnace"],
-      "input": "lazy:copper_boots",
-      "output": "lazy:copper_nugget"
-    }
-    
+	  
+	  "tags": ["furnace"],
+	  "input": "lazy:copper_boots",
+	  "output": "lazy:copper_nugget"
+	}
+	
   }

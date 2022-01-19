@@ -1,14 +1,14 @@
 {
-    "format_version": "1.12",
-    "minecraft:recipe_furnace": {
-      "description": {
-      "identifier": "minecraft:furnace_heather_helmet"
-      },
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+	  "description": {
+	  "identifier": "minecraft:furnace_heather_helmet"
+	  },
   
-      
-      "tags": ["furnace"],
-      "input": "minecraft:leather_helmet",
-      "output": "minecraft:rabbit_hide"
-    }
-    
+	  
+	  "tags": ["furnace"],
+	  "input": "minecraft:leather_helmet",
+	  "output": "minecraft:rabbit_hide"
+	}
+	
   }

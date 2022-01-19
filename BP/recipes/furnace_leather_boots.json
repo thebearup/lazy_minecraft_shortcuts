@@ -1,14 +1,14 @@
 {
-    "format_version": "1.12",
-    "minecraft:recipe_furnace": {
-      "description": {
-      "identifier": "minecraft:furnace_leather_boots"
-      },
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+	  "description": {
+	  "identifier": "minecraft:furnace_leather_boots"
+	  },
   
-      
-      "tags": ["furnace"],
-      "input": "minecraft:leather_boots",
-      "output": "minecraft:rabbit_hide"
-    }
-    
+	  
+	  "tags": ["furnace"],
+	  "input": "minecraft:leather_boots",
+	  "output": "minecraft:rabbit_hide"
+	}
+	
   }
