@@ -28,7 +28,7 @@
 		   "value":"Zombie Spawner"
 		},
 		"minecraft:block_placer": {
-		   "block": "lazy:zombie_spawner"
+		   "block": "lazy:zombie_spawner_off"
 		}
 	  }
 	}

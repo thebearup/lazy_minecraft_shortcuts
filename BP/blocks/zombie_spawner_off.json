@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "lazy:zombie_spawner",
+			"identifier": "lazy:zombie_spawner_off",
 			"is_experimental": false,
 			"register_to_creative_menu": true
 		},
@@ -16,7 +16,7 @@
 			},
 			"minecraft:map_color": "#FFFFFF",
 			"minecraft:block_light_absorption": 0,
-			"minecraft:block_light_emission": 0.250,
+			"minecraft:block_light_emission": 0.0,
 			"minecraft:placement_filter": {
 				"conditions": [
 					{
@@ -25,20 +25,15 @@
 					}
 				]
 			},
-			"minecraft:ticking": {
-				"looping": true,
-				"range": [0, 10],
-				"on_tick": {
-					"event": "spawn_zombie",
-					"target": "self"
-				}
+			"minecraft:on_interact": {
+				"event": "switch_block"
 			}
 		},
 		"events": {
-			"spawn_zombie": {
+			"switch_block": {
 				"run_command": {
 					"command": [
-						"summon zombie ~ ~-1 ~"
+						"fill ~~~ ~~~ lazy:zombie_spawner_on"
 					]
 				}
 			}

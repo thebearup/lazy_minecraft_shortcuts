@@ -8,19 +8,16 @@
 			"crafting_table"
 		],
 		"pattern": [
-			"XXX",
-			"YZY",
+			"",
+			" Y",
 			"XXX"
 		],
 		"key": {
 			"X": {
-				"item": "minecraft:cobblestone"
+				"item": "minecraft:redstone_block"
 			},
 			"Y": {
-				"item": "minecraft:kelp"
-			},
-			"Z": {
-				"item": "minecraft:redstone"
+				"item": "minecraft:dried_kelp_block"
 			}
 		},
 		"result": {

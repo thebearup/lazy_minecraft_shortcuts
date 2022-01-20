@@ -1,8 +1,8 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "lazy:kelp_generator",
+			"identifier": "lazy:zombie_spawner_on",
 			"is_experimental": false,
 			"register_to_creative_menu": true
 		},
@@ -14,25 +14,43 @@
 				"flame_odds": 0,
 				"burn_odds": 0
 			},
+			"minecraft:loot": "loot_tables/chests/zombie_spawner_off.json",
 			"minecraft:map_color": "#FFFFFF",
 			"minecraft:block_light_absorption": 0,
 			"minecraft:block_light_emission": 0.250,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+					"allowed_faces": ["all"],
+					"block_filter": ["mob_spawner"]
+					}
+				]
+			},
 			"minecraft:on_interact": {
-				"event": "generate_kelp"
+				"event": "switch_block"
 			},
 			"minecraft:ticking": {
 				"looping": true,
 				"range": [0, 10],
 				"on_tick": {
-					"event": "generate_kelp",
+					"event": "spawn_zombie",
 					"target": "self"
 				}
 			}
 		},
 		"events": {
-			"generate_kelp": {
-				"spawn_loot":{
-					"table": "loot_tables/chests/kelp_generator.json"
+			"spawn_zombie": {
+				"run_command": {
+					"command": [
+						"summon zombie ~ ~-1 ~"
+					]
+				}
+			},
+			"switch_block": {
+				"run_command": {
+					"command": [
+						"fill ~~~ ~~~ lazy:zombie_spawner_off"
+					]
 				}
 			}
 		}

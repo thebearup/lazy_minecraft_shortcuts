@@ -1,19 +1,19 @@
 {
 	"format_version": "1.16.0",
-		"lazy:kelp_generator": {
+		"lazy:zombie_spawner_off": {
 		  "textures": {
-			  "up": "kelp_generator_top",
-			  "down": "kelp_generator_bottom",
-			  "side": "kelp_generator_side"
+			  "up": "zombie_spawner_off",
+			  "down": "zombie_spawner_off",
+			  "side": "zombie_spawner_off"
 			  },
 			"sound": "stone"
 		},
-		"lazy:zombie_spawner": {
-		  "textures": {
-			  "up": "zombie_spawner_side",
-			  "down": "zombie_spawner_side",
-			  "side": "zombie_spawner_side"
-			  },
-			"sound": "stone"
-		}
+		"lazy:zombie_spawner_on": {
+			"textures": {
+				"up": "zombie_spawner_on",
+				"down": "zombie_spawner_on",
+				"side": "zombie_spawner_on"
+				},
+			  "sound": "stone"
+		  }
 	}

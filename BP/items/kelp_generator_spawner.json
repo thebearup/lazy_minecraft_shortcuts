@@ -28,7 +28,7 @@
 		   "value":"Kelp Generator"
 		},
 		"minecraft:block_placer": {
-		   "block": "lazy:kelp_generator"
+		   "block": "lazy:kelp_generator_off"
 		}
 	  }
 	}
