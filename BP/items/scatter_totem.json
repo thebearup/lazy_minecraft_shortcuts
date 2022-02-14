@@ -1,0 +1,67 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "lazy:scatter_totem",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "scatter_totem"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.equipment"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:max_stack_size": 64,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "tools",
+            "minecraft:durability": {
+                "max_durability": 1,
+                "damage_chance": {
+                    "min": 100,
+                    "max": 100
+                }
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "scatter",
+                    "target": "self"
+                }
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 3,
+            "minecraft:can_destroy_in_creative": false
+        },
+        "events": {
+            "scatter": {
+                "sequence": [
+                    {
+                        "swing": {}
+                    },
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound portal.travel @s ~ ~ ~ 0.6",
+                                "particle minecraft:totem_particle ~ ~1 ~",
+                                "spreadplayers ~ ~ 0 5000 @s",
+                                "effect @s slow_falling 60",
+                                "playsound portal.travel @s ~ ~ ~ 0.6",
+                                "particle minecraft:totem_particle ~ ~1 ~"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "damage": {
+                            "type": "durability",
+                            "amount": 2,
+                            "target": "self"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -8,6 +8,9 @@
 	"zombie_spawner_spawner": {
 	  "textures": "textures/items/zombie_spawner_spawner"
 	},
+	"scatter_totem": {
+		"textures": "textures/items/scatter_totem"
+	  },
 	"copper_chest": {
 	  "textures": "textures/items/copper_chest"
 	},
