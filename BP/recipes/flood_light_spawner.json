@@ -1,0 +1,27 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "lazy:flood_light_spwaner"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" X",
+			"XYX",
+			" X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:glass_pane"
+			},
+			"Y": {
+				"item": "minecraft:torch"
+			}
+		},
+		"result": {
+			"item": "lazy:flood_light_spawner"
+		}
+	}
+}

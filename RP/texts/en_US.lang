@@ -1,10 +1,12 @@
 pack.name=Lazy Shortcuts RP
 pack.description=This enables some functions and recipes that make my routine tasks easier :)
+tile.lazy:flood_light.name=Flood Light
 tile.lazy:kelp_generator_off.name=Kelp Generator
 tile.lazy:kelp_generator_on.name=Kelp Generator
 tile.lazy:zombie_spawner_off.name=Zombie Spawner
 tile.lazy:zombie_spawner_on.name=Zombie Spawner
 
+item.lazy:flood_light_spawner.name=Flood Light
 item.lazy:kelp_generator_spawner.name=Kelp Generator
 item.lazy:zombie_spawner_spawner.name=Zombie Spawner
 item.lazy:scatter_totem.name=Scatter Totem

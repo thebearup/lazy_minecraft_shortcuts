@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+	  "flood_light":{
+		"textures": "textures/blocks/flood_light"
+	  },
 	  "kelp_generator_off": {
 		"textures": "textures/blocks/kelp_generator_off"
 	  },

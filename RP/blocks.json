@@ -15,5 +15,13 @@
 				"side": "zombie_spawner_on"
 				},
 			  "sound": "stone"
-		  }
+		},
+		"lazy:flood_light": {
+		"textures": {
+			"up": "flood_light",
+			"down": "flood_light",
+			"side": "flood_light"
+			},
+			"sound": "glass"
+		}
 	}

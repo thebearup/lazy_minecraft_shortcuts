@@ -2,6 +2,9 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
+	"flood_light_spawner": {
+	  "textures": "textures/items/flood_light_spawner"
+	},
 	"kelp_generator_spawner": {
 	  "textures": "textures/items/kelp_generator_spawner"
 	},
@@ -10,7 +13,7 @@
 	},
 	"scatter_totem": {
 		"textures": "textures/items/scatter_totem"
-	  },
+	},
 	"copper_chest": {
 	  "textures": "textures/items/copper_chest"
 	},
