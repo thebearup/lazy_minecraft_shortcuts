@@ -14,6 +14,13 @@ It's not really meant to change the game so much as simplify the more grindy ele
     - Can only be placed on existing mob spawners.
     - Beefs up the efficiency of mob spawner farms, and works around a 1.18 bug where mob spawners don't work.
     - Right-click/interact to turn on/off
+- **Flood Light**: Much brighter than a normal torch
+    - Fills surrounding air blocks with ambient light
+    - Useful for lighting up giant caverns
+- **More Cats**:
+    - Gray Tabby (unused content from vanilla RP)
+    - Purple and Blue cats (my nieces' favorite colors)
+    - Nyan Cat (just because)
 
 
 ### Recipes for Existing Stuff
@@ -23,6 +30,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
 - **Scute Recipe**: Save some time waiting for eggs to hatch and baby turtles to grow.
 - **Creeper Spawn Egg**: Turn a mob spawner into your very own gunpowder farm.
 - **Zombie Villager Spawn Egg**: Easily build your trading hall, with discounts.
+- **Dragon Egg**: Duplicate the Ender Dragon egg, so you can fight the dragon countless times.
 - Smelt leather components down to `rabbit_hide` via furnace.
 
 
@@ -41,6 +49,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
 
 # New Recipes/Features
 ![Alt text](media/copper_screenshot.png "Copper Screenshot")
+![Alt text](media/cats.png "Cats!")
 |   |   |
 |---|---|
 |![Alt text](media/kelp_generator_recipe.png "Kelp Generator")|![Alt text](media/zombie_spawner_recipe.png "Zombie Spawner")|
@@ -48,6 +57,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
 |![Alt text](media/copper_axe_recipe.png "Copper Axe")|![Alt text](media/copper_shovel_recipe.png "Copper Shovel")|
 |![Alt text](media/copper_helmet_recipe.png "Copper Helmet")|![Alt text](media/copper_chest_recipe.png "Copper Chest")|
 |![Alt text](media/copper_leggings_recipe.png "Copper Leggings")|![Alt text](media/copper_boots_recipe.png "Copper Boots")|
+|![Alt text](media/flood_light_recipe.png "Flood Light")|![Alt text](media/dragon_egg_recipe.png "Dragon Egg")|
 |![Alt text](media/scute_recipe.png "Scute")|![Alt text](media/quartz_recipe.png "Quartz")|
 |![Alt text](media/saddle_recipe.png "Saddle")|![Alt text](media/trident.png "Trident")|
 
