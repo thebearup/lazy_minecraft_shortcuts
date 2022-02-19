@@ -10,5 +10,4 @@ item.lazy:flood_light_spawner.name=Flood Light
 item.lazy:kelp_generator_spawner.name=Kelp Generator
 item.lazy:zombie_spawner_spawner.name=Zombie Spawner
 item.lazy:scatter_totem.name=Scatter Totem
-
-
+item.spawn_egg.entity.lazy:nyan.name=Spawn Nyan Cat

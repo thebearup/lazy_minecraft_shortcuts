@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.nyan": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.graytabby",
+            "Texture.blue",
+            "Texture.purple",
+            "Texture.nyan"
+          ],
+          "Array.tame": [
+            "Texture.graytabby_tame",
+            "Texture.blue_tame",
+            "Texture.purple_tame",
+            "Texture.nyan_tame"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_tamed ? Array.tame[query.variant] : Array.skins[query.variant]" ]
+    }
+  }
+}
