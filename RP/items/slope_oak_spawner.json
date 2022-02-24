@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+	  "identifier": "lazy:slope_oak_spawner",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "slope_oak_spawner",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
+  }
+}

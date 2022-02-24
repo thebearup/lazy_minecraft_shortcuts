@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+	  "identifier": "lazy:mug_glass_spawner",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "mug_glass_spawner",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
+  }
+}

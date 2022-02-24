@@ -8,6 +8,21 @@
 	"kelp_generator_spawner": {
 	  "textures": "textures/items/kelp_generator_spawner"
 	},
+	"chalice_glass_spawner": {
+		"textures": "textures/items/chalice_glass_spawner"
+	},
+	"mug_glass_spawner": {
+		"textures": "textures/items/mug_glass_spawner"
+	},
+	"mug_wood_spawner": {
+		"textures": "textures/items/mug_wood_spawner"
+	},
+	"slope_oak_spawner": {
+		"textures": "textures/items/slope_oak_spawner"
+	},
+	"table_oak_spawner": {
+		"textures": "textures/items/table_oak_spawner"
+	},
 	"zombie_spawner_spawner": {
 	  "textures": "textures/items/zombie_spawner_spawner"
 	},

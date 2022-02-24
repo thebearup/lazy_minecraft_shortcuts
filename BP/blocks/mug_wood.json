@@ -7,7 +7,7 @@
 			"register_to_creative_menu": true
 		},
 		"components": {
-			"minecraft:destroy_time": 1,
+			"minecraft:destroy_time": 0,
 			"minecraft:explosion_resistance": 5,
 			"minecraft:friction": 0.6,
 			"minecraft:map_color": "#67502C",

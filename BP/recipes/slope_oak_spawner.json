@@ -1,0 +1,25 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "lazy:slope_oak_spawner"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"",
+			"X",
+			"XX"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:planks"
+			}
+		},
+		"result": {
+			"item": "lazy:slope_oak_spawner",
+			"count": 3
+		}
+	}
+}
