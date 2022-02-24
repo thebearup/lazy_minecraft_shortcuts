@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lazy:chalice_glass",
+			"is_experimental": false,
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 5,
+			"minecraft:friction": 0.6,
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.0,
+            "minecraft:geometry": "geometry.chalice",
+			"minecraft:material_instances": {
+				"*": {
+                    "texture": "chalice_glass",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [	-2,	0,-2],
+				"size": [4, 6, 4]
+			},
+			"minecraft:entity_collision": {
+				"origin": [	-2,	0,-2],
+				"size": [4, 6, 4]
+			}
+		}
+	}
+}

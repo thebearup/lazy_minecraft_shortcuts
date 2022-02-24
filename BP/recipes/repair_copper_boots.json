@@ -1,20 +1,24 @@
-  {
+{
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
-	  "description": {
-	  "identifier": "lazy:copper_boots"
-	  },
-  
-	  "tags": [ "crafting_table" ],
-	  "ingredients": [
-		{
-		  "item": "lazy:copper_boots",
-                  "count": 2
-
+		"description": {
+			"identifier": "lazy:repair_copper_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "lazy:copper_boots",
+				"count": 1
+			},
+			{
+				"item": "lazy:copper_boots",
+				"count": 1
+			}
+		],
+		"result": {
+			"item": "lazy:copper_boots"
 		}
-	  ],
-	  "result": {
-		"item": "lazy:copper_boots"
-	  }
 	}
-  }
+}

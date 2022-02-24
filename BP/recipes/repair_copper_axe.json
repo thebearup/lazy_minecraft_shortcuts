@@ -1,20 +1,24 @@
-  {
+{
 	"format_version": "1.12",
 	"minecraft:recipe_shapeless": {
-	  "description": {
-	  "identifier": "lazy:copper_axe"
-	  },
-  
-	  "tags": [ "crafting_table" ],
-	  "ingredients": [
-		{
-		  "item": "lazy:copper_axe",
-                  "count": 2
-
+		"description": {
+			"identifier": "lazy:repair_copper_axe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "lazy:copper_axe",
+				"count": 1
+			},
+			{
+				"item": "lazy:copper_axe",
+				"count": 1
+			}
+		],
+		"result": {
+			"item": "lazy:copper_axe"
 		}
-	  ],
-	  "result": {
-		"item": "lazy:copper_axe"
-	  }
 	}
-  }
+}

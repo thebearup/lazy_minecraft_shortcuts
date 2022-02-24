@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+	  "chalice_glass": {
+		"textures": "textures/blocks/chalice_glass" 
+	  },
 	  "flood_light":{
 		"textures": "textures/blocks/flood_light"
 	  },
@@ -12,6 +15,18 @@
 	  },
 	  "kelp_generator_on": {
 		"textures": "textures/blocks/kelp_generator_on"
+	  },
+	  "mug_glass": {
+		"textures": "textures/blocks/mug_glass" 
+	  },
+	  "mug_wood": {
+		"textures": "textures/blocks/mug_wood" 
+	  },
+	  "table_oak": {
+		"textures": "textures/blocks/table_oak" 
+	  },
+	  "slope_oak": {
+		"textures": "textures/blocks/slope_oak" 
 	  },
 	  "zombie_spawner_off":{
 		"textures": "textures/blocks/zombie_spawner_off"
