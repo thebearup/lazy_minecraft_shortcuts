@@ -1,10 +1,22 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
 			"identifier": "lazy:slope_oak",
 			"is_experimental": false,
-			"register_to_creative_menu": true
+			"register_to_creative_menu": true,
+			"properties": {
+				"lazy:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"lazy:inverted": [
+					0,
+					1
+				]
+			}
 		},
 		"components": {
 			"minecraft:destroy_time": 1,
@@ -13,20 +25,148 @@
 			"minecraft:map_color": "#67502C",
 			"minecraft:block_light_absorption": 0,
 			"minecraft:block_light_emission": 0.0,
-            "minecraft:geometry": "geometry.slope",
+			"minecraft:geometry": "geometry.slope",
 			"minecraft:material_instances": {
 				"*": {
-                    "texture": "slope_oak",
+					"texture": "slope_oak",
 					"render_method": "alpha_test"
 				}
 			},
 			"minecraft:pick_collision": {
-				"origin": [	-8,	0,-8],
-				"size": [16, 16, 16]
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
 			},
 			"minecraft:entity_collision": {
-				"origin": [	-8,	0, -8],
-				"size": [ 16, 8, 16	]
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:on_player_placing": {
+				"event": "lazy:update_rotation"
+			},
+			"minecraft:on_interact": {
+				"event": "lazy:switch_block"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 2 && query.block_property('lazy:inverted') < 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 3 && query.block_property('lazy:inverted') < 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 4 && query.block_property('lazy:inverted') < 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 5 && query.block_property('lazy:inverted') < 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 2 && query.block_property('lazy:inverted') > 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						180
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 3 && query.block_property('lazy:inverted') > 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						180
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 4 && query.block_property('lazy:inverted') > 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						180
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('lazy:block_rotation') == 5 && query.block_property('lazy:inverted') > 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						180
+					]
+				}
+			}
+		],
+		"events": {
+			"lazy:update_rotation": {
+				"set_block_property": {
+					"lazy:block_rotation": "(query.cardinal_facing_2d)",
+					"lazy:inverted": 0
+				}
+			},
+			"lazy:switch_block": {
+				"sequence": [
+					{
+						"condition": "query.block_property('lazy:inverted') == 0",
+						"set_block_property": {
+							"lazy:inverted": 1
+						}
+					},
+					{
+						"condition": "query.block_property('lazy:inverted') == 1",
+						"set_block_property": {
+							"lazy:inverted": 0
+						}
+					}
+				]
 			}
 		}
 	}
