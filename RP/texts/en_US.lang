@@ -1,6 +1,7 @@
 pack.name=Lazy Shortcuts RP
 pack.description=This enables some functions and recipes that make my routine tasks easier :)
 
+tile.lazy:chair_oak.name=Oak Chair
 tile.lazy:chalice_glass.name=Glass Chalice
 tile.lazy:flood_light.name=Flood Light
 tile.lazy:kelp_generator_off.name=Kelp Generator
@@ -13,6 +14,7 @@ tile.lazy:table_oak.name=Oak Table
 tile.lazy:zombie_spawner_off.name=Zombie Spawner
 tile.lazy:zombie_spawner_on.name=Zombie Spawner
 
+item.lazy:chair_oak_spawner.name=Oak Chair
 item.lazy:chalice_glass_spawner.name=Glass Chalice
 item.lazy:flood_light_spawner.name=Flood Light
 item.lazy:kelp_generator_spawner.name=Kelp Generator

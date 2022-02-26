@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+	  "chair_oak": {
+		"textures": "textures/blocks/chair_oak" 
+	  },
 	  "chalice_glass": {
 		"textures": "textures/blocks/chalice_glass" 
 	  },

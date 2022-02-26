@@ -8,6 +8,9 @@
 	"kelp_generator_spawner": {
 	  "textures": "textures/items/kelp_generator_spawner"
 	},
+	"chair_oak_spawner": {
+		"textures": "textures/items/chair_oak_spawner"
+	},
 	"chalice_glass_spawner": {
 		"textures": "textures/items/chalice_glass_spawner"
 	},
