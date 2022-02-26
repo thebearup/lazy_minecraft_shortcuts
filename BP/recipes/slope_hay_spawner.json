@@ -2,7 +2,7 @@
 	"format_version": 1.12,
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "lazy:slope_oak_spawner"
+			"identifier": "lazy:slope_hay_spawner"
 		},
 		"tags": [
 			"crafting_table"
@@ -14,11 +14,11 @@
 		],
 		"key": {
 			"X": {
-				"item": "minecraft:planks"
+				"item": "minecraft:hay_block"
 			}
 		},
 		"result": {
-			"item": "lazy:slope_oak_spawner",
+			"item": "lazy:slope_hay_spawner",
 			"count": 6
 		}
 	}

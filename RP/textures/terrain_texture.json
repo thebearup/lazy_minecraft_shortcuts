@@ -28,6 +28,9 @@
 	  "slope_oak": {
 		"textures": "textures/blocks/slope_oak" 
 	  },
+	  "slope_hay": {
+		"textures": "textures/blocks/slope_hay" 
+	  },
 	  "zombie_spawner_off":{
 		"textures": "textures/blocks/zombie_spawner_off"
 	  },

@@ -17,6 +17,9 @@
 	"mug_wood_spawner": {
 		"textures": "textures/items/mug_wood_spawner"
 	},
+	"slope_hay_spawner": {
+		"textures": "textures/items/slope_hay_spawner"
+	},
 	"slope_oak_spawner": {
 		"textures": "textures/items/slope_oak_spawner"
 	},
