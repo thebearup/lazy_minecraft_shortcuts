@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+	  "identifier": "lazy:power_armor_despawner",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "power_armor_despawner",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
+  }
+}

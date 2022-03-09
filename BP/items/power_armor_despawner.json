@@ -1,0 +1,65 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "lazy:power_armor_despawner",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "power_armor_despawner"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.equipment"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:max_stack_size": 64,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "tools",
+            "minecraft:durability": {
+                "max_durability": 1,
+                "damage_chance": {
+                    "min": 100,
+                    "max": 100
+                }
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "despawn_power_armor",
+                    "target": "self"
+                }
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 3,
+            "minecraft:can_destroy_in_creative": false
+        },
+        "events": {
+            "despawn_power_armor": {
+                "sequence": [
+                    {
+                        "swing": {}
+                    },
+                    {
+                        "run_command": {
+                            "command": [
+                                "particle minecraft:totem_particle ~ ~1 ~",
+                                "kill @e[type=lazy:power_armor,r=10,c=1]",
+                                "kill @e[type=lazy:power_armor_gun,r=10,c=2]",
+                                "give @s lazy:power_armor_spawner"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "damage": {
+                            "type": "durability",
+                            "amount": 2,
+                            "target": "self"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,69 +1,75 @@
 {
-  "resource_pack_name": "vanilla",
-  "texture_name": "atlas.items",
-  "texture_data": {
-	"flood_light_spawner": {
-	  "textures": "textures/items/flood_light_spawner"
-	},
-	"kelp_generator_spawner": {
-	  "textures": "textures/items/kelp_generator_spawner"
-	},
-	"chair_oak_spawner": {
-		"textures": "textures/items/chair_oak_spawner"
-	},
-	"chalice_glass_spawner": {
-		"textures": "textures/items/chalice_glass_spawner"
-	},
-	"mug_glass_spawner": {
-		"textures": "textures/items/mug_glass_spawner"
-	},
-	"mug_wood_spawner": {
-		"textures": "textures/items/mug_wood_spawner"
-	},
-	"slope_hay_spawner": {
-		"textures": "textures/items/slope_hay_spawner"
-	},
-	"slope_oak_spawner": {
-		"textures": "textures/items/slope_oak_spawner"
-	},
-	"table_oak_spawner": {
-		"textures": "textures/items/table_oak_spawner"
-	},
-	"zombie_spawner_spawner": {
-	  "textures": "textures/items/zombie_spawner_spawner"
-	},
-	"scatter_totem": {
-		"textures": "textures/items/scatter_totem"
-	},
-	"copper_chest": {
-	  "textures": "textures/items/copper_chest"
-	},
-	"copper_leggings": {
-	  "textures": "textures/items/copper_leggings"
-	},
-	"copper_helmet": {
-	  "textures": "textures/items/copper_helmet"
-	},
-	"copper_boots": {
-	  "textures": "textures/items/copper_boots"
-	},
-	"copper_nugget": {
-	  "textures": "textures/items/copper_nugget"
-	},
-	"copper_sword": {
-	  "textures": "textures/items/copper_sword"
-	},
-	"copper_axe": {
-	  "textures": "textures/items/copper_axe"
-	},
-	"copper_hoe": {
-	  "textures": "textures/items/copper_hoe"
-	},
-	"copper_shovel": {
-	  "textures": "textures/items/copper_shovel"
-	},
-	"copper_pickaxe": {
-	  "textures": "textures/items/copper_pickaxe"
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"flood_light_spawner": {
+			"textures": "textures/items/flood_light_spawner"
+		},
+		"kelp_generator_spawner": {
+			"textures": "textures/items/kelp_generator_spawner"
+		},
+		"chair_oak_spawner": {
+			"textures": "textures/items/chair_oak_spawner"
+		},
+		"chalice_glass_spawner": {
+			"textures": "textures/items/chalice_glass_spawner"
+		},
+		"mug_glass_spawner": {
+			"textures": "textures/items/mug_glass_spawner"
+		},
+		"mug_wood_spawner": {
+			"textures": "textures/items/mug_wood_spawner"
+		},
+		"power_armor_spawner": {
+			"textures": "textures/items/power_armor_spawner"
+		},
+		"power_armor_despawner": {
+			"textures": "textures/items/power_armor_despawner"
+		},
+		"slope_hay_spawner": {
+			"textures": "textures/items/slope_hay_spawner"
+		},
+		"slope_oak_spawner": {
+			"textures": "textures/items/slope_oak_spawner"
+		},
+		"table_oak_spawner": {
+			"textures": "textures/items/table_oak_spawner"
+		},
+		"zombie_spawner_spawner": {
+			"textures": "textures/items/zombie_spawner_spawner"
+		},
+		"scatter_totem": {
+			"textures": "textures/items/scatter_totem"
+		},
+		"copper_chest": {
+			"textures": "textures/items/copper_chest"
+		},
+		"copper_leggings": {
+			"textures": "textures/items/copper_leggings"
+		},
+		"copper_helmet": {
+			"textures": "textures/items/copper_helmet"
+		},
+		"copper_boots": {
+			"textures": "textures/items/copper_boots"
+		},
+		"copper_nugget": {
+			"textures": "textures/items/copper_nugget"
+		},
+		"copper_sword": {
+			"textures": "textures/items/copper_sword"
+		},
+		"copper_axe": {
+			"textures": "textures/items/copper_axe"
+		},
+		"copper_hoe": {
+			"textures": "textures/items/copper_hoe"
+		},
+		"copper_shovel": {
+			"textures": "textures/items/copper_shovel"
+		},
+		"copper_pickaxe": {
+			"textures": "textures/items/copper_pickaxe"
+		}
 	}
-  }
 }
