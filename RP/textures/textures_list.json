@@ -6,5 +6,7 @@
     "textures/entity/cat/purple",
     "textures/entity/cat/purple_tame",
     "textures/entity/cat/nyan",
-    "textures/entity/cat/nyan_tame"
+    "textures/entity/cat/nyan_tame",
+    "textures/entity/power_armor",
+    "textures/entity/power_armor_gun"
 ]

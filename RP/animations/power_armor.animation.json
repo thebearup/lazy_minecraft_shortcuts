@@ -1,0 +1,52 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.power_armor.attack" : {
+			"loop" : true,
+			"bones" : {
+				"arm0" : {
+					"rotation" : [ "-114 + ((1.5 * math.abs(math.mod(variable.attack_animation_tick - query.frame_alpha, 10) - 5) - 2.5) / 5) * 57.3", 0.0, 0.0 ]
+				},
+				"arm1" : {
+					"rotation" : [ "-114 + ((1.5 * math.abs(math.mod(variable.attack_animation_tick - query.frame_alpha, 10) - 5) - 2.5) / 5) * 57.3", 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.power_armor.flower" : {
+			"loop" : true,
+			"bones" : {
+				"arm0" : {
+					"rotation" : [ "-45.8 + ((0.25 * math.abs(math.mod(variable.offer_flower_tick, 70) - 35) - 17.5) / 35)", 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.power_armor.move" : {
+			"loop" : true,
+			"bones" : {
+				"arm0" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"arm1" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.power_armor.walk" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"head" : {
+					"rotation" : [ 0.0, 0.0, 0.0 ]
+				},
+				"leg0" : {
+					"rotation" : [ "(math.cos(query.modified_distance_moved * 20) * 40.0)", 0.0, 0.0 ]
+				},
+				"leg1" : {
+					"rotation" : [ "(math.cos(query.modified_distance_moved * 20 + 180) * 40.0)", 0.0, 0.0 ]
+				}
+			}
+		}
+	}
+}
