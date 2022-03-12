@@ -53,7 +53,7 @@
         "attack_radius": 25
       },
       "minecraft:shooter": {
-        "def": "minecraft:fireball"
+        "def": "lazy:missile"
       },
       "minecraft:behavior.random_stroll": {
         "priority": 2,
