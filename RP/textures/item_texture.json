@@ -70,6 +70,9 @@
 		},
 		"copper_pickaxe": {
 			"textures": "textures/items/copper_pickaxe"
+		},
+		"flower_crown": {
+			"textures": "textures/items/flower_crown"
 		}
 	}
 }

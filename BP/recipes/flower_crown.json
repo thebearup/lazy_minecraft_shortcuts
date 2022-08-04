@@ -1,0 +1,27 @@
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "lazy:flower_crown"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"",
+			"YXX",
+			"X Y"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:red_flower"
+			},
+			"Y": {
+				"item": "minecraft:yellow_flower"
+			}
+		},
+		"result": {
+			"item": "lazy:flower_crown"
+		}
+	}
+}
