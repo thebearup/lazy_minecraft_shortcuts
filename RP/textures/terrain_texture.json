@@ -34,6 +34,12 @@
 	  "slope_hay": {
 		"textures": "textures/blocks/slope_hay" 
 	  },
+	  "xp_generator_off": {
+		"textures": "textures/blocks/xp_generator_off"
+	  },
+	  "xp_generator_on": {
+		"textures": "textures/blocks/xp_generator_on"
+	  },
 	  "zombie_spawner_off":{
 		"textures": "textures/blocks/zombie_spawner_off"
 	  },
