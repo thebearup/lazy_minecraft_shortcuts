@@ -13,6 +13,8 @@ tile.lazy:slope_oak.name=Oak Slope
 tile.lazy:table_oak.name=Oak Table
 tile.lazy:zombie_spawner_off.name=Zombie Spawner
 tile.lazy:zombie_spawner_on.name=Zombie Spawner
+tile.lazy:xp_generator_off.name=XP Generator
+tile.lazy:xp_generator_on.name=XP Generator
 
 item.lazy:chair_oak_spawner.name=Oak Chair
 item.lazy:chalice_glass_spawner.name=Glass Chalice
@@ -27,4 +29,5 @@ item.lazy:slope_oak_spawner.name=Oak Slope
 item.lazy:table_oak_spawner.name=Oak Table
 item.lazy:zombie_spawner_spawner.name=Zombie Spawner
 item.lazy:scatter_totem.name=Scatter Totem
+item.lazy:xp_generator_spawner.name=XP Generator
 item.spawn_egg.entity.lazy:nyan.name=Spawn Nyan Cat

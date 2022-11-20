@@ -8,6 +8,9 @@
 		"kelp_generator_spawner": {
 			"textures": "textures/items/kelp_generator_spawner"
 		},
+		"xp_generator_spawner": {
+			"textures": "textures/items/xp_generator_spawner"
+		},
 		"chair_oak_spawner": {
 			"textures": "textures/items/chair_oak_spawner"
 		},
