@@ -9,7 +9,9 @@
             "minecraft:icon": {
                 "texture": "scatter_totem"
             },
-            "minecraft:display_name": {},
+            "minecraft:display_name": {
+                "value": "Scatter Totem"
+            },
             "minecraft:creative_category": {
                 "parent": "itemGroup.name.equipment"
             },

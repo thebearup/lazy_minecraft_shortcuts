@@ -23,7 +23,7 @@
 					"scale": [0.03, 0.03, 0.03]
 				}
 			 }
-	  },
+	    },
 		"minecraft:display_name":{
 		   "value":"Wood Mug"
 		},
