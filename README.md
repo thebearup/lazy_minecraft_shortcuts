@@ -21,7 +21,13 @@ It's not really meant to change the game so much as simplify the more grindy ele
     - Gray Tabby (unused content from vanilla RP)
     - Purple and Blue cats (my nieces' favorite colors)
     - Nyan Cat (just because)
-
+- **XP Generator**:
+    - Just cut to the chase already :)
+- **Decorative Blocks**:
+    - Wood and Hay "slopes", for all your roofing needs
+    - Wood and Glass drinkware
+    - Wood table and chairs
+- **Golden Carrot**: Same as normal but grants 30s night vision
 
 ### Recipes for Existing Stuff
 - **Trident Recipe**: `Tridents` are scarce early game and abundant late game. This makes them a bit easier to acquire.
@@ -39,12 +45,9 @@ It's not really meant to change the game so much as simplify the more grindy ele
 2. Follow the instructions based on your platform
     - [Windows 10/Android/iPad](https://www.minecraft.net/en-us/addons)
       - The easiest way
-    - [Xbox](https://youtu.be/754amkN3dok?t=15)
-      - Basically download via the Edge browser and install with [MC Addons Manager](https://www.microsoft.com/en-us/p/mc-addons-manager/9p8r42ntgllt?activetab=pivot:overviewtab)
-    - [PS4](https://www.youtube.com/watch?v=BoDSPuH4x_U&ab_channel=AntonyandHarryGames)
-      - Push the addon to a world/realm via a supported platform, then connect from your PS4.
-    - [Switch](https://gaming.stackexchange.com/questions/384024/how-can-i-add-add-ons-to-my-game-on-the-nintendo-switch)
-      - Fairly convoluted - can use the PS4 method instead.
+    - Xbox/PS#/Switch
+      - This is deliberately broken by Mojang
+      - Must join (or download) a realm with the addons installed
 3. Enable `Holiday Creator Features` in world settings.
 
 # New Recipes/Features
@@ -60,5 +63,7 @@ It's not really meant to change the game so much as simplify the more grindy ele
 |![Alt text](media/flood_light_recipe.png "Flood Light")|![Alt text](media/dragon_egg_recipe.png "Dragon Egg")|
 |![Alt text](media/scute_recipe.png "Scute")|![Alt text](media/quartz_recipe.png "Quartz")|
 |![Alt text](media/saddle_recipe.png "Saddle")|![Alt text](media/trident.png "Trident")|
-
-
+|![Alt text](media/chalice_glass_recipe.png "Glass Chalice")|![Alt text](media/xp_generator_recipe.png "XP Generator")|
+|![Alt text](media/slope_hay_recipe.png "Hay Slope")|![Alt text](media/slope_wood_recipe.png "Wood Slope")|
+|![Alt text](media/mug_wood_recipe.png "Wood Mug")|![Alt text](media/mug_glass_recipe.png "Glass Mug")|
+|![Alt text](media/chair_recipe.png "Wood Chair")|![Alt text](media/table_recipe.png "Wood Table")|
