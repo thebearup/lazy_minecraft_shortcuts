@@ -1,0 +1,54 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lazy:cauldron_filler",
+			"is_experimental": false,
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 5,
+			"minecraft:friction": 0.6,
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+			},
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.750,
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [0, 10],
+				"on_tick": {
+					"event": "fill_cauldron",
+					"target": "self"
+				}
+			},
+            "minecraft:geometry": "geometry.shelf",
+			"minecraft:material_instances": {
+				"*": {
+                    "texture": "cauldron_filler",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [	-8,	14,-8],
+				"size": [16, 2,	16]
+			},
+			"minecraft:entity_collision": {
+				"origin": [	-8,	14, -8],
+				"size": [ 16, 2, 16	]
+			}
+		},
+		"events": {
+			"fill_cauldron": {
+				"run_command": {
+					"command": [
+						"function fill_cauldron"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+	  "identifier": "lazy:beer_wort",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "beer_wort",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
+  }
+}

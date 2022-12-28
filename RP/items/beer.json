@@ -1,0 +1,13 @@
+{
+  "format_version": "1.14",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lazy:beer"
+    },
+    "components": {
+      "minecraft:icon": "beer",
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets": "bottles"
+    }
+  }
+}

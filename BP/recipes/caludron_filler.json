@@ -1,0 +1,25 @@
+  {
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+	  "identifier": "lazy:cauldron_filler"
+	  },
+  
+	  "tags": [ "crafting_table" ],
+	  "ingredients": [
+		{
+		  "item": "minecraft:lapis_block"
+		},
+		{
+			"item": "minecraft:dripstone_block"
+		},
+		{
+		  "item": "minecraft:pointed_dripstone"
+		}
+	  ],
+	  "result": {
+		"item": "lazy:cauldron_filler",
+		"count": 1
+	  }
+	}
+  }

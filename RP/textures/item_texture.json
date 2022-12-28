@@ -76,6 +76,12 @@
 		},
 		"flower_crown": {
 			"textures": "textures/items/flower_crown"
+		},
+		"beer_wort": {
+			"textures": "textures/items/beer_wort"
+		},
+		"beer": {
+			"textures": "textures/items/beer"
 		}
 	}
 }

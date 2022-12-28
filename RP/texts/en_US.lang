@@ -1,6 +1,9 @@
 pack.name=Lazy Shortcuts RP
 pack.description=This enables some functions and recipes that make my routine tasks easier :)
 
+action.hint.exit.lazy:chair=Crouch to exit chair
+
+tile.lazy:cauldron_filler.name=Cauldron Filler
 tile.lazy:chair_oak.name=Oak Chair
 tile.lazy:chalice_glass.name=Glass Chalice
 tile.lazy:flood_light.name=Flood Light
@@ -16,6 +19,7 @@ tile.lazy:zombie_spawner_on.name=Zombie Spawner
 tile.lazy:xp_generator_off.name=XP Generator
 tile.lazy:xp_generator_on.name=XP Generator
 
+item.lazy:beer.name=Beer
 item.lazy:chair_oak_spawner.name=Oak Chair
 item.lazy:chalice_glass_spawner.name=Glass Chalice
 item.lazy:flood_light_spawner.name=Flood Light

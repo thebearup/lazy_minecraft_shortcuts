@@ -1,0 +1,2 @@
+fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cauldron ["fill_level": 6] replace minecraft:cauldron ["fill_level": 4]
+fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cauldron ["fill_level": 4] replace minecraft:cauldron ["fill_level": 2]

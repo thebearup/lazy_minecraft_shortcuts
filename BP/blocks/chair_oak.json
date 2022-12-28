@@ -54,6 +54,14 @@
 			},
 			"minecraft:on_player_placing": {
 				"event": "lazy:update_rotation"
+			},
+			"minecraft:on_placed": {
+				"event": "block_placed",
+				"target": "self"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "block_destroyed",
+				"target": "self"
 			}
 		},
 		"permutations": [
@@ -102,6 +110,20 @@
 			"lazy:update_rotation": {
 				"set_block_property": {
 					"lazy:block_rotation": "(query.cardinal_facing_2d)"
+				}
+			},
+			"block_placed": {
+				"run_command": {
+					"command": [
+					  "summon lazy:chair"
+					]
+				}
+			},
+			"block_destroyed": {
+				"run_command": {
+					"command": [
+					  "kill @e[type=lazy:chair, c=1]"
+					]
 				}
 			}
 		}

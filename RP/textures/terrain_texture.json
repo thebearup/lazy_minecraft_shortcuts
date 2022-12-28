@@ -4,47 +4,50 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
-	  "chair_oak": {
-		"textures": "textures/blocks/chair_oak" 
-	  },
-	  "chalice_glass": {
-		"textures": "textures/blocks/chalice_glass" 
-	  },
-	  "flood_light":{
-		"textures": "textures/blocks/flood_light"
-	  },
-	  "kelp_generator_off": {
-		"textures": "textures/blocks/kelp_generator_off"
-	  },
-	  "kelp_generator_on": {
-		"textures": "textures/blocks/kelp_generator_on"
-	  },
-	  "mug_glass": {
-		"textures": "textures/blocks/mug_glass" 
-	  },
-	  "mug_wood": {
-		"textures": "textures/blocks/mug_wood" 
-	  },
-	  "table_oak": {
-		"textures": "textures/blocks/table_oak" 
-	  },
-	  "slope_oak": {
-		"textures": "textures/blocks/slope_oak" 
-	  },
-	  "slope_hay": {
-		"textures": "textures/blocks/slope_hay" 
-	  },
-	  "xp_generator_off": {
-		"textures": "textures/blocks/xp_generator_off"
-	  },
-	  "xp_generator_on": {
-		"textures": "textures/blocks/xp_generator_on"
-	  },
-	  "zombie_spawner_off":{
-		"textures": "textures/blocks/zombie_spawner_off"
-	  },
-	  "zombie_spawner_on":{
-		"textures": "textures/blocks/zombie_spawner_on"
-	  }
+		"cauldron_filler": {
+			"textures": "textures/blocks/cauldron_filler"
+		},
+		"chair_oak": {
+			"textures": "textures/blocks/chair_oak"
+		},
+		"chalice_glass": {
+			"textures": "textures/blocks/chalice_glass"
+		},
+		"flood_light": {
+			"textures": "textures/blocks/flood_light"
+		},
+		"kelp_generator_off": {
+			"textures": "textures/blocks/kelp_generator_off"
+		},
+		"kelp_generator_on": {
+			"textures": "textures/blocks/kelp_generator_on"
+		},
+		"mug_glass": {
+			"textures": "textures/blocks/mug_glass"
+		},
+		"mug_wood": {
+			"textures": "textures/blocks/mug_wood"
+		},
+		"table_oak": {
+			"textures": "textures/blocks/table_oak"
+		},
+		"slope_oak": {
+			"textures": "textures/blocks/slope_oak"
+		},
+		"slope_hay": {
+			"textures": "textures/blocks/slope_hay"
+		},
+		"xp_generator_off": {
+			"textures": "textures/blocks/xp_generator_off"
+		},
+		"xp_generator_on": {
+			"textures": "textures/blocks/xp_generator_on"
+		},
+		"zombie_spawner_off": {
+			"textures": "textures/blocks/zombie_spawner_off"
+		},
+		"zombie_spawner_on": {
+			"textures": "textures/blocks/zombie_spawner_on"
+		}
 	}
-  }
+}
