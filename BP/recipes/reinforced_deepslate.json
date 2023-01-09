@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lazy:reinforced_deepslate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:quartz_block",
+				"count": 3
+			},
+			{
+				"item": "minecraft:iron_ingot",
+				"count": 1
+			}
+		],
+		"result": {
+			"item": "minecraft:reinforced_deepslate",
+			"count": 3
+		}
+	}
+}

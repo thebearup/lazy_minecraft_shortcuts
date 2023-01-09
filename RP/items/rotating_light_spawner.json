@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+	  "identifier": "lazy:rotating_light_spawner",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "rotating_light_spawner",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
+  }
+}

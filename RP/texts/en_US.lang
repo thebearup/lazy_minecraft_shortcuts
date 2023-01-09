@@ -11,6 +11,7 @@ tile.lazy:kelp_generator_off.name=Kelp Generator
 tile.lazy:kelp_generator_on.name=Kelp Generator
 tile.lazy:mug_glass.name=Glass Mug
 tile.lazy:mug_wood.name=Wood Mug
+tile.lazy:rotating_light.name=Rotating Light
 tile.lazy:slope_hay.name=Hay Slope
 tile.lazy:slope_oak.name=Oak Slope
 tile.lazy:table_oak.name=Oak Table

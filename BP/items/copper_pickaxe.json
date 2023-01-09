@@ -610,6 +610,13 @@
 						"on_dig": {
 							"event": "tool_dig_damage"
 						}
+					},
+					{
+						"block": "minecraft:reinforced_deepslate",
+						"speed": 2,
+						"on_dig": {
+							"event": "tool_dig_damage"
+						}
 					}
 				],
 				"on_dig":{

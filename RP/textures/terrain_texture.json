@@ -28,6 +28,9 @@
 		"mug_wood": {
 			"textures": "textures/blocks/mug_wood"
 		},
+		"rotating_light": {
+			"textures": "textures/blocks/rotating_light"
+		},
 		"table_oak": {
 			"textures": "textures/blocks/table_oak"
 		},

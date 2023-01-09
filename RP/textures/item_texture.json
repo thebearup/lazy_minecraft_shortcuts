@@ -5,6 +5,9 @@
 		"flood_light_spawner": {
 			"textures": "textures/items/flood_light_spawner"
 		},
+		"rotating_light_spawner": {
+			"textures": "textures/items/rotating_light_spawner"
+		},
 		"kelp_generator_spawner": {
 			"textures": "textures/items/kelp_generator_spawner"
 		},

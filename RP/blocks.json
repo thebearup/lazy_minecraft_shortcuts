@@ -23,5 +23,13 @@
 			"side": "flood_light"
 			},
 			"sound": "glass"
-		}
+		},
+		"lazy:rotating_light": {
+			"textures": {
+				"up": "rotating_light",
+				"down": "rotating_light",
+				"side": "rotating_light"
+				},
+				"sound": "glass"
+			}
 	}
