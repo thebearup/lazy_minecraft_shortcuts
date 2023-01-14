@@ -2,23 +2,23 @@
 	"format_version": 2,
 	"header": {
 		"name": "Lazy Shortcuts RP",
-		"description": "Version 1.6.10 - Reinforced Deepslate",
+		"description": "Version 1.6.11 - Minecarts",
 		"min_engine_version": [1, 17, 0],
 		"uuid": "48f52d35-8c0f-426c-bfd8-34a918cc8907",
-		"version": [1, 6, 10]
+		"version": [1, 6, 11]
 	},
 	"modules": [
 		{
 			"description": "",
 			"type": "resources",
 			"uuid": "e7d55ea1-7700-4c22-b82f-1e942a78daee",
-			"version": [1, 6, 10]
+			"version": [1, 6, 11]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "0c23c3f2-f4f2-41d4-a6c0-906990f998c1",
-			"version": [1, 6, 10]
+			"version": [1, 6, 11]
 		}
 	],
 	"metadata": {

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+	  "identifier": "lazy:minecart_hopper",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "minecart_hopper",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
+  }
+}

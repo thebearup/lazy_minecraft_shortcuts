@@ -85,6 +85,15 @@
 		},
 		"beer": {
 			"textures": "textures/items/beer"
+		},
+		"minecarts": {
+			"textures": "textures/items/minecarts"
+		},
+		"minecart_and_chest": {
+			"textures": "textures/items/minecart_and_chest"
+		},
+		"minecart_and_hopper": {
+			"textures": "textures/items/minecart_and_hopper"
 		}
 	}
 }

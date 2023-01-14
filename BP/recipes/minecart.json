@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lazy:minecart"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "lazy:minecarts"
+			}
+		],
+		"result": {
+			"item": "minecraft:minecart",
+			"count": 1
+		}
+	}
+}
