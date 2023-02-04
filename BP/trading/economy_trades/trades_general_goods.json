@@ -3,7 +3,7 @@
     {
       "groups": [
         {
-          "num_to_select": 7,
+          "num_to_select": 9,
           "trades": [
             {
               "max_uses": 99,
@@ -48,7 +48,7 @@
               ]
             },
             {
-              "max_uses": 5,
+              "max_uses": 99,
               "wants": [
                 {
                   "item": "minecraft:rotten_flesh",
@@ -95,6 +95,34 @@
                 {
                   "item": "minecraft:flint",
                   "quantity": 26
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald"
+                }
+              ]
+            },
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:lapis_block",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald"
+                }
+              ]
+            },
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:redstone_block",
+                  "quantity": 1
                 }
               ],
               "gives": [
