@@ -1,0 +1,112 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 7,
+          "trades": [
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:book"
+                }
+              ]
+            },
+            {
+              "max_uses": 5,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:feather"
+                }
+              ]
+            },
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "quantity": 8
+                }
+              ]
+            },
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:rabbit_foot"
+                }
+              ]
+            },
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "lazy:beer"
+                }
+              ]
+            },
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:amethyst_shard"
+                }
+              ]
+            },
+            {
+              "max_uses": 99,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 3
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:magma_cream"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
