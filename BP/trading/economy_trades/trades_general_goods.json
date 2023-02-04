@@ -107,8 +107,8 @@
               "max_uses": 99,
               "wants": [
                 {
-                  "item": "minecraft:lapis_block",
-                  "quantity": 1
+                  "item": "minecraft:lapis_lazuli",
+                  "quantity": 6
                 }
               ],
               "gives": [
@@ -121,8 +121,8 @@
               "max_uses": 99,
               "wants": [
                 {
-                  "item": "minecraft:redstone_block",
-                  "quantity": 1
+                  "item": "minecraft:redstone",
+                  "quantity": 6
                 }
               ],
               "gives": [
