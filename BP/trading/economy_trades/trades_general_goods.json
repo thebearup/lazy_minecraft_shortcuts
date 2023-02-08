@@ -3,10 +3,10 @@
     {
       "groups": [
         {
-          "num_to_select": 9,
+          "num_to_select": 10,
           "trades": [
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:coal",
@@ -20,7 +20,7 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:quartz",
@@ -34,7 +34,7 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:paper",
@@ -48,7 +48,7 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:rotten_flesh",
@@ -62,7 +62,7 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:gold_ingot",
@@ -76,7 +76,7 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:copper_ingot",
@@ -90,7 +90,7 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:flint",
@@ -104,7 +104,7 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:lapis_lazuli",
@@ -118,11 +118,25 @@
               ]
             },
             {
-              "max_uses": 99,
+              "max_uses": -1,
               "wants": [
                 {
                   "item": "minecraft:redstone",
                   "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald"
+                }
+              ]
+            },
+            {
+              "max_uses": -1,
+              "wants": [
+                {
+                  "item": "minecraft:amethyst_shard",
+                  "quantity": 3
                 }
               ],
               "gives": [
