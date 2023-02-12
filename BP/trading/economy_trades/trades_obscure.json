@@ -10,7 +10,8 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 3
+                  "quantity": 3,
+                  "price_multiplier": 0.05
                 }
               ],
               "gives": [
@@ -24,7 +25,8 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 1
+                  "quantity": 1,
+                  "price_multiplier": 0.05
                 }
               ],
               "gives": [
@@ -38,7 +40,8 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 2
+                  "quantity": 2,
+                  "price_multiplier": 0.05
                 }
               ],
               "gives": [
@@ -53,7 +56,8 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 2
+                  "quantity": 2,
+                  "price_multiplier": 0.05
                 }
               ],
               "gives": [
@@ -67,7 +71,8 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 3
+                  "quantity": 3,
+                  "price_multiplier": 0.05
                 }
               ],
               "gives": [
@@ -81,7 +86,8 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 3
+                  "quantity": 3,
+                  "price_multiplier": 0.05
                 }
               ],
               "gives": [
@@ -95,7 +101,8 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 3
+                  "quantity": 3,
+                  "price_multiplier": 0.05
                 }
               ],
               "gives": [

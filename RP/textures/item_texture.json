@@ -47,6 +47,18 @@
 		"scatter_totem": {
 			"textures": "textures/items/scatter_totem"
 		},
+		"bronze_chest": {
+			"textures": "textures/items/bronze_chest"
+		},
+		"bronze_leggings": {
+			"textures": "textures/items/bronze_leggings"
+		},
+		"bronze_helmet": {
+			"textures": "textures/items/bronze_helmet"
+		},
+		"bronze_boots": {
+			"textures": "textures/items/bronze_boots"
+		},
 		"copper_chest": {
 			"textures": "textures/items/copper_chest"
 		},
