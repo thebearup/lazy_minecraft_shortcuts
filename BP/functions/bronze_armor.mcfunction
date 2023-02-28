@@ -1,5 +1,8 @@
-execute @a ~ ~ ~ fill ~-3 ~-3 ~-3 ~3 ~3 ~3 air 0 replace light_block 14
-execute @a[hasitem={item=lazy:bronze_helmet,location=slot.armor.head}] ~ ~ ~ fill ~ ~1 ~ ~ ~1 ~ light_block 14 replace air 0
+scoreboard objectives add bronze_helmet dummy
+scoreboard players add @a bronze_helmet 1
+effect @a[hasitem={item=lazy:bronze_helmet,location=slot.armor.head},scores={bronze_helmet=200}] health_boost 21 0 true
+scoreboard players set @a[scores={bronze_helmet=200..}] bronze_helmet 0
+
 effect @a[hasitem={item=lazy:bronze_chest,location=slot.armor.chest}] haste 11 0 true
 effect @a[hasitem={item=lazy:bronze_leggings,location=slot.armor.legs}] jump_boost 15 1 true
 effect @a[hasitem={item=lazy:bronze_boots,location=slot.armor.feet}] slow_falling 15 0 true
