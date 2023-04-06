@@ -11,4 +11,5 @@ scoreboard players add @a[hasitem={item=lazy:bronze_chest,location=slot.armor.ch
 scoreboard players add @a[hasitem={item=lazy:bronze_leggings,location=slot.armor.legs}] bronze 1
 scoreboard players add @a[hasitem={item=lazy:bronze_boots,location=slot.armor.feet}] bronze 1
 
+effect @a[scores={bronze=3}] health_boost 11 0 true
 effect @a[scores={bronze=4}] health_boost 11 0 true

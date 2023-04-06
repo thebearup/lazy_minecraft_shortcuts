@@ -13,7 +13,7 @@
 				"texture": "bronze_boots"
 			},
 			"minecraft:display_name": {
-				"value": "Bronze Boots"
+				"value": "Bronze Boots §b§o+Slow Falling"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:enchantable": {

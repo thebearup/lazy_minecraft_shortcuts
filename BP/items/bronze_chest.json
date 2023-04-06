@@ -13,7 +13,7 @@
 				"texture": "bronze_chest"
 			},
 			"minecraft:display_name": {
-				"value": "Bronze Chestplate"
+				"value": "Bronze Chestplate §b§o+Haste"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:enchantable": {

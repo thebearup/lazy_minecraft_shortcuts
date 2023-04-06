@@ -10,7 +10,7 @@
 				"parent": "itemGroup.name.leggings"
 			},
 			"minecraft:icon": {
-				"texture": "bronze_leggings"
+				"texture": "bronze_leggings §b§o+Jump Boost"
 			},
 			"minecraft:display_name": {
 				"value": "Bronze Leggings"
