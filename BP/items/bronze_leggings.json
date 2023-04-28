@@ -10,10 +10,10 @@
 				"parent": "itemGroup.name.leggings"
 			},
 			"minecraft:icon": {
-				"texture": "bronze_leggings §b§o+Jump Boost"
+				"texture": "bronze_leggings"
 			},
 			"minecraft:display_name": {
-				"value": "Bronze Leggings"
+				"value": "Bronze Leggings §b§o+Jump Boost"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:enchantable": {

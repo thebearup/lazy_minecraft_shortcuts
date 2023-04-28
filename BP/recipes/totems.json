@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lazy:totems"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:totem_of_undying"
+			}
+		],
+		"result": {
+			"item": "lazy:totems",
+			"count": 1
+		}
+	}
+}

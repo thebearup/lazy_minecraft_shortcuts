@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+	  "identifier": "lazy:totems",
+	  "category": "Equipment"
+	},
+	"components": {
+	  "minecraft:icon": "totems",
+	  "minecraft:render_offsets": "miscellaneous"
+	}
+  }
+}

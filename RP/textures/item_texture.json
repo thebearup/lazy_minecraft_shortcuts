@@ -106,6 +106,9 @@
 		},
 		"minecart_and_hopper": {
 			"textures": "textures/items/minecart_and_hopper"
+		},
+		"totems": {
+			"textures": "textures/items/totems"
 		}
 	}
 }
