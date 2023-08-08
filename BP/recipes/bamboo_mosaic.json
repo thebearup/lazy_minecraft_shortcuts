@@ -1,0 +1,19 @@
+  {
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+	  "identifier": "lazy:bamboo_mosaic_s"
+	  },
+  
+	  "tags": [ "crafting_table" ],
+	  "ingredients": [
+		{
+		  "item": "minecraft:bamboo_planks"
+		}
+	  ],
+	  "result": {
+		"item": "minecraft:bamboo_mosaic",
+		"count": 1
+	  }
+	}
+  }

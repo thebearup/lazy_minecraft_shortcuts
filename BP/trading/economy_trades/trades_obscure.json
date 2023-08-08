@@ -3,7 +3,7 @@
     {
       "groups": [
         {
-          "num_to_select": 7,
+          "num_to_select": 9,
           "trades": [
             {
               "max_uses": -1,
@@ -108,6 +108,36 @@
               "gives": [
                 {
                   "item": "minecraft:magma_cream"
+                }
+              ]
+            },
+            {
+              "max_uses": -1,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 8,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:netherite_upgrade_smithing_template"
+                }
+              ]
+            },
+            {
+              "max_uses": -1,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 6,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:ender_pearl"
                 }
               ]
             }
