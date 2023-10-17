@@ -2,23 +2,23 @@
 	"format_version": 2,
 	"header": {
 		"name": "Lazy Shortcuts BP",
-		"description": "Version 1.7.11 - Bamboo Recipes",
+		"description": "v1.8.0 - Fix Compatibility with 1.20",
 		"min_engine_version": [1, 16, 100],
 		"uuid": "0c23c3f2-f4f2-41d4-a6c0-906990f998c1",
-		"version": [1, 7, 11]
+		"version": [1, 8, 0]
 	},
 	"modules": [
 		{
 			"description": "",
 			"type": "data",
 			"uuid": "e7d55ea1-7700-4c22-b82f-1e942a78daee",
-			"version": [1, 7, 11]
+			"version": [1, 8, 0]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "48f52d35-8c0f-426c-bfd8-34a918cc8907",
-			"version": [1, 7, 11]
+			"version": [1, 8, 0]
 		}
 	],
 	"metadata": {
